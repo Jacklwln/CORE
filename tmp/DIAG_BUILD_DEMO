@@ -1,0 +1,374 @@
+Inside subdirectory  bareiss : =-=-=-=-=-=-=-=->>>
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include bareiss.cpp -o bareiss.o
+g++  bareiss.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o bareiss
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include inverse.cpp -o inverse.o
+inverse.cpp:54:17: warning: using directive refers to implicitly-defined namespace 'std'
+using namespace std;
+                ^
+1 warning generated.
+g++  inverse.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o inverse
+ld: warning: directory not found for option '-L../../mpfr/lib'
+
+Inside subdirectory  benchmark : =-=-=-=-=-=-=-=->>>
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C bigfloat
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../../inc -I../../../mpfr/include -I../../../gmp/include  bm_bigfloat.cpp -o bm_bigfloat.o
+g++  bm_bigfloat.o -L../../../lib -L../../../mpfr/lib -L../../../gmp/lib -lcore++ -lmpfr -lgmp -o bm_bigfloat
+ld: warning: directory not found for option '-L../../../mpfr/lib'
+
+Inside subdirectory  bounds : =-=-=-=-=-=-=-=->>>
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include tEscapeBound.cpp -o tEscapeBound.o
+tEscapeBound.cpp:43:17: warning: using directive refers to implicitly-defined namespace 'std'
+using namespace std;
+                ^
+1 warning generated.
+g++  tEscapeBound.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o tEscapeBound
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include tCutOffBound.cpp -o tCutOffBound.o
+tCutOffBound.cpp:38:17: warning: using directive refers to implicitly-defined namespace 'std'
+using namespace std;
+                ^
+1 warning generated.
+g++  tCutOffBound.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o tCutOffBound
+ld: warning: directory not found for option '-L../../mpfr/lib'
+
+Inside subdirectory  chull : =-=-=-=-=-=-=-=->>>
+g++ -c -DCORE_LEVEL=3 -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include chull.cpp -o chull_level3.o
+g++  chull_level3.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o chull_level3
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -DCORE_LEVEL=1 -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include chull.cpp -o chull_level1.o
+g++  chull_level1.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o chull_level1
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -DCORE_LEVEL=3 -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include chull4.cpp -o chull4_level3.o
+g++  chull4_level3.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o chull4_level3
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -DCORE_LEVEL=1 -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include chull4.cpp -o chull4_level1.o
+g++  chull4_level1.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o chull4_level1
+ld: warning: directory not found for option '-L../../mpfr/lib'
+rm chull4_level3.o chull_level3.o chull4_level1.o chull_level1.o
+
+Inside subdirectory  core2paper : =-=-=-=-=-=-=-=->>>
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C sumProd default
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../../inc -I../../../mpfr/include -I../../../gmp/include  tSum.cpp -o tSum1.o
+g++  --stack,83886080 tSum1.o -L../../../lib -L../../../mpfr/lib -L../../../gmp/lib -lcore++ -lmpfr -lgmp -o tSum1
+clang: error: unsupported option '--stack,83886080'
+make[3]: *** [tSum1] Error 1
+make[2]: [default] Error 2 (ignored)
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C transcendental default	
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../../inc -I../../../mpfr/include -I../../../gmp/include tConst.cpp -o tConst.o
+g++  tConst.o -L../../../lib -L../../../mpfr/lib -L../../../gmp/lib -lcore++ -lmpfr -lgmp -o tConst
+ld: warning: directory not found for option '-L../../../mpfr/lib'
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../../inc -I../../../mpfr/include -I../../../gmp/include tElemFun.cpp -o tElemFun.o
+g++  tElemFun.o -L../../../lib -L../../../mpfr/lib -L../../../gmp/lib -lcore++ -lmpfr -lgmp -o tElemFun
+ld: warning: directory not found for option '-L../../../mpfr/lib'
+
+Inside subdirectory  compare : =-=-=-=-=-=-=-=->>>
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include compare.cpp -o compare.o
+g++  compare.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o compare
+ld: warning: directory not found for option '-L../../mpfr/lib'
+
+Inside subdirectory  demos : =-=-=-=-=-=-=-=->>>
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -DCORE_LEVEL=3 -I. -I../../inc -I../../mpfr/include -I../../gmp/include \
+	    -DCORE_LEVEL_1_USE_WRAPPERS -I. -I../../inc -I../../mpfr/include -I../../gmp/include scheinerman.cpp -o scheinerman.o
+g++  scheinerman.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o scheinerman3
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -DCORE_LEVEL=3 -I. -I../../inc -I../../mpfr/include -I../../gmp/include \
+	    -DCORE_LEVEL_1_USE_WRAPPERS -I. -I../../inc -I../../mpfr/include -I../../gmp/include pointOnPlane.cpp -o pointOnPlane.o
+g++  pointOnPlane.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o pointOnPlane3
+ld: warning: directory not found for option '-L../../mpfr/lib'
+
+Inside subdirectory  determinant : =-=-=-=-=-=-=-=->>>
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -DCORE_LEVEL=3 -I. -I../../inc -I../../mpfr/include -I../../gmp/include determinant.cpp -o determinant.o
+g++  determinant.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o determinant
+ld: warning: directory not found for option '-L../../mpfr/lib'
+
+Inside subdirectory  fileIO : =-=-=-=-=-=-=-=->>>
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include fileIO.cpp -o fileIO.o
+g++  fileIO.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o fileIO
+ld: warning: directory not found for option '-L../../mpfr/lib'
+
+Inside subdirectory  fortune : =-=-=-=-=-=-=-=->>>
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C vor default
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -DCORE_LEVEL=1 -I. -I../../../inc -I../../../mpfr/include -I../../../gmp/include voronoi.cpp -o voronoi.o
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -DCORE_LEVEL=1 -I. -I../../../inc -I../../../mpfr/include -I../../../gmp/include main.cpp -o main.o
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -DCORE_LEVEL=1 -I. -I../../../inc -I../../../mpfr/include -I../../../gmp/include edgelist.cpp -o edgelist.o
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -DCORE_LEVEL=1 -I. -I../../../inc -I../../../mpfr/include -I../../../gmp/include geometry.cpp -o geometry.o
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -DCORE_LEVEL=1 -I. -I../../../inc -I../../../mpfr/include -I../../../gmp/include heap.cpp -o heap.o
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -DCORE_LEVEL=1 -I. -I../../../inc -I../../../mpfr/include -I../../../gmp/include memory.cpp -o memory.o
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -DCORE_LEVEL=1 -I. -I../../../inc -I../../../mpfr/include -I../../../gmp/include output.cpp -o output.o
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -DCORE_LEVEL=1 -I. -I../../../inc -I../../../mpfr/include -I../../../gmp/include PQlist.cpp -o PQlist.o
+g++  voronoi.o main.o edgelist.o geometry.o heap.o memory.o output.o PQlist.o -L../../../lib -L../../../mpfr/lib -L../../../gmp/lib -lcore++ -lmpfr -lgmp -o voronoi
+ld: warning: directory not found for option '-L../../../mpfr/lib'
+
+Inside subdirectory  gaussian : =-=-=-=-=-=-=-=->>>
+g++ -c -DCORE_LEVEL=3 -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include gaussian.cpp -o gaussian_level3.o
+g++  gaussian_level3.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -lcorex++_level3 -o gaussian_level3
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -DCORE_LEVEL=2 -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include gaussian.cpp -o gaussian_level2.o
+g++  gaussian_level2.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -lcorex++_level1 -o gaussian_level2
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -DCORE_LEVEL=1 -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include gaussian.cpp -o gaussian_level1.o
+g++  gaussian_level1.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -lcorex++_level1 -o gaussian_level1
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -DCORE_LEVEL=3 -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include pivotgaussianT.cpp -o pivotgaussianT_level3.o
+g++  pivotgaussianT_level3.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -lcorex++_level3 -o pivotgaussianT_level3
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -DCORE_LEVEL=2 -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include pivotgaussianT.cpp -o pivotgaussianT_level2.o
+g++  pivotgaussianT_level2.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -lcorex++_level1 -o pivotgaussianT_level2
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -DCORE_LEVEL=1 -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include pivotgaussianT.cpp -o pivotgaussianT_level1.o
+g++  pivotgaussianT_level1.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -lcorex++_level1 -o pivotgaussianT_level1
+ld: warning: directory not found for option '-L../../mpfr/lib'
+rm gaussian_level3.o pivotgaussianT_level2.o gaussian_level1.o pivotgaussianT_level3.o gaussian_level2.o pivotgaussianT_level1.o
+
+Inside subdirectory  geom2d : =-=-=-=-=-=-=-=->>>
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -DCORE_LEVEL=3 -I. -I../../inc -I../../mpfr/include -I../../gmp/include testLine.cpp -o testLine.o
+g++  testLine.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o testLine
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -DCORE_LEVEL=3 -I. -I../../inc -I../../mpfr/include -I../../gmp/include pointOnCircle.cpp -o pointOnCircle.o
+g++  pointOnCircle.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o pointOnCircle
+ld: warning: directory not found for option '-L../../mpfr/lib'
+
+Inside subdirectory  generic : =-=-=-=-=-=-=-=->>>
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include sample.cpp -o sample.o
+g++  sample.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o sample
+ld: warning: directory not found for option '-L../../mpfr/lib'
+
+Inside subdirectory  interval : =-=-=-=-=-=-=-=->>>
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include interval_t.cpp -o interval_t.o
+interval_t.cpp:177:12: warning: unused variable 'x_8' [-Wunused-variable]
+  Interval x_8 = x_2 * x_3;
+           ^
+interval_t.cpp:296:3: note: in instantiation of function template specialization 'TestArithmetic<double>' requested here
+  TestArithmetic<NT>();
+  ^
+interval_t.cpp:102:3: note: in instantiation of function template specialization 'RunAllTests<double>' requested here
+  RunAllTests<machine_double>();
+  ^
+interval_t.cpp:191:12: warning: unused variable 'x_10' [-Wunused-variable]
+  Interval x_10 = x_7 * zero;
+           ^
+interval_t.cpp:204:12: warning: unused variable 'x_12' [-Wunused-variable]
+  Interval x_12 = zero / one;
+           ^
+interval_t.cpp:208:12: warning: unused variable 'x_13' [-Wunused-variable]
+  Interval x_13 = num / den;
+           ^
+interval_t.cpp:225:12: warning: unused variable 'zero_2' [-Wunused-variable]
+  Interval zero_2 = zero + one;
+           ^
+interval_t.cpp:297:3: note: in instantiation of function template specialization 'TestEquality<double>' requested here
+  TestEquality<NT>();
+  ^
+interval_t.cpp:102:3: note: in instantiation of function template specialization 'RunAllTests<double>' requested here
+  RunAllTests<machine_double>();
+  ^
+interval_t.cpp:264:12: warning: unused variable 'x' [-Wunused-variable]
+  Interval x = Intersect(infinity, i_2);
+           ^
+interval_t.cpp:299:3: note: in instantiation of function template specialization 'TestAdditional<double>' requested here
+  TestAdditional<NT>();
+  ^
+interval_t.cpp:102:3: note: in instantiation of function template specialization 'RunAllTests<double>' requested here
+  RunAllTests<machine_double>();
+  ^
+interval_t.cpp:265:12: warning: unused variable 'x_r' [-Wunused-variable]
+  Interval x_r = Intersect(i_2, infinity);
+           ^
+interval_t.cpp:269:12: warning: unused variable 's_1' [-Wunused-variable]
+  Interval s_1 = Intersect(i_5, i_1);
+           ^
+interval_t.cpp:270:12: warning: unused variable 's_2' [-Wunused-variable]
+  Interval s_2 = Intersect(i_1, i_5);
+           ^
+interval_t.cpp:177:12: warning: unused variable 'x_8' [-Wunused-variable]
+  Interval x_8 = x_2 * x_3;
+           ^
+interval_t.cpp:296:3: note: in instantiation of function template specialization 'TestArithmetic<CORE::DoubleWrapper>' requested here
+  TestArithmetic<NT>();
+  ^
+interval_t.cpp:106:3: note: in instantiation of function template specialization 'RunAllTests<CORE::DoubleWrapper>' requested here
+  RunAllTests<DoubleWrapper>();
+  ^
+interval_t.cpp:191:12: warning: unused variable 'x_10' [-Wunused-variable]
+  Interval x_10 = x_7 * zero;
+           ^
+interval_t.cpp:204:12: warning: unused variable 'x_12' [-Wunused-variable]
+  Interval x_12 = zero / one;
+           ^
+interval_t.cpp:208:12: warning: unused variable 'x_13' [-Wunused-variable]
+  Interval x_13 = num / den;
+           ^
+interval_t.cpp:225:12: warning: unused variable 'zero_2' [-Wunused-variable]
+  Interval zero_2 = zero + one;
+           ^
+interval_t.cpp:297:3: note: in instantiation of function template specialization 'TestEquality<CORE::DoubleWrapper>' requested here
+  TestEquality<NT>();
+  ^
+interval_t.cpp:106:3: note: in instantiation of function template specialization 'RunAllTests<CORE::DoubleWrapper>' requested here
+  RunAllTests<DoubleWrapper>();
+  ^
+interval_t.cpp:264:12: warning: unused variable 'x' [-Wunused-variable]
+  Interval x = Intersect(infinity, i_2);
+           ^
+interval_t.cpp:299:3: note: in instantiation of function template specialization 'TestAdditional<CORE::DoubleWrapper>' requested here
+  TestAdditional<NT>();
+  ^
+interval_t.cpp:106:3: note: in instantiation of function template specialization 'RunAllTests<CORE::DoubleWrapper>' requested here
+  RunAllTests<DoubleWrapper>();
+  ^
+interval_t.cpp:265:12: warning: unused variable 'x_r' [-Wunused-variable]
+  Interval x_r = Intersect(i_2, infinity);
+           ^
+interval_t.cpp:269:12: warning: unused variable 's_1' [-Wunused-variable]
+  Interval s_1 = Intersect(i_5, i_1);
+           ^
+interval_t.cpp:270:12: warning: unused variable 's_2' [-Wunused-variable]
+  Interval s_2 = Intersect(i_1, i_5);
+           ^
+18 warnings generated.
+g++  interval_t.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o interval_t
+ld: warning: directory not found for option '-L../../mpfr/lib'
+
+Inside subdirectory  kahan : =-=-=-=-=-=-=-=->>>
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include kahan.cpp -o kahan.o
+g++  kahan.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o kahan
+ld: warning: directory not found for option '-L../../mpfr/lib'
+
+Inside subdirectory  pi : =-=-=-=-=-=-=-=->>>
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include newPi.cpp -o newPi.o
+g++  newPi.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o newPi
+ld: warning: directory not found for option '-L../../mpfr/lib'
+
+Inside subdirectory  poly : =-=-=-=-=-=-=-=->>>
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -D_NT_BINT tNewton.cpp -o tNewton.o
+g++  tNewton.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o tNewton
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include tSturm.cpp -o tSturm.o
+g++  tSturm.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o tSturm
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include tDescartes.cpp -o tDescartes.o
+g++  tDescartes.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o tDescartes
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -D_NT_BF tSturm.cpp -o tSturmBF.o
+g++  tSturmBF.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o tSturmBF
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -D_NT_BF tDescartes.cpp -o tDescartesBF.o
+g++  tDescartesBF.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o tDescartesBF
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include    tPoly.cpp -o tPoly.o 
+g++  tPoly.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o tPoly
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -D_NT_RAT tPoly.cpp -o tPolyRat.o
+g++  tPolyRat.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o tPolyRat
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -D_NT_INT tPoly.cpp -o tPolyInt.o
+g++  tPolyInt.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o tPolyInt
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -D_NT_EXP tPoly.cpp -o tPolyExp.o
+g++  tPolyExp.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o tPolyExp
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -D_NT_BF tPoly.cpp -o tPolyBF.o
+g++  tPolyBF.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o tPolyBF
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -D_NT_LON tPoly.cpp -o tPolyLon.o
+g++  tPolyLon.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o tPolyLon
+ld: warning: directory not found for option '-L../../mpfr/lib'
+
+Inside subdirectory  sumOfSqrts : =-=-=-=-=-=-=-=->>>
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include graham.cpp -o graham.o
+g++  graham.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o graham
+ld: warning: directory not found for option '-L../../mpfr/lib'
+
+Inside subdirectory  testIdent : =-=-=-=-=-=-=-=->>>
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include testIdent.cpp -o testIdent.o
+g++  testIdent.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o testIdent
+ld: warning: directory not found for option '-L../../mpfr/lib'
+
+Inside subdirectory  testIO : =-=-=-=-=-=-=-=->>>
+g++ -std=c++11 \
+		-c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -DCORE_LEVEL=3 testIO.cpp -o testIO.o
+g++ -std=c++11 \
+		 testIO.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o testIO
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -std=c++11 \
+		-c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -DCORE_LEVEL=3 testMpfr.cpp -o testMpfr.o
+g++ -std=c++11 \
+		 testMpfr.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o testMpfr
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -std=c++11 \
+		-c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -DCORE_LEVEL=3 testSqrt.cpp -o testSqrt.o
+g++ -std=c++11 \
+		 testSqrt.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o testSqrt
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -std=c++11 \
+		-c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -DCORE_LEVEL=3 testCompatible.cpp -o testCompatible.o
+g++ -std=c++11 \
+		 testCompatible.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o testCompatible
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -std=c++11 \
+		-c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -DCORE_LEVEL=3 testCompatibleNew.cpp -o testCompatibleNew.o
+g++ -std=c++11 \
+		 testCompatibleNew.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o testCompatibleNew
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -std=c++11 \
+		-c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -DCORE_LEVEL=3 testBigFloat.cpp -o testBigFloat.o
+g++ -std=c++11 \
+		 testBigFloat.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o testBigFloat
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -std=c++11 \
+		-c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -DCORE_LEVEL=3 noGarbage.cpp -o noGarbage.o
+g++ -std=c++11 \
+		 noGarbage.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o noGarbage
+ld: warning: directory not found for option '-L../../mpfr/lib'
+
+Inside subdirectory  testsuite : =-=-=-=-=-=-=-=->>>
+g++ -std=c++11 \
+		-c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -DCORE_LEVEL=3 t_bigint.cpp -o t_bigint.o
+g++ -std=c++11 \
+		 t_bigint.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o t_bigint
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -std=c++11 \
+		-c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -DCORE_LEVEL=3 t_bigrat.cpp -o t_bigrat.o
+g++ -std=c++11 \
+		 t_bigrat.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o t_bigrat
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -std=c++11 \
+		-c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -DCORE_LEVEL=3 t_bigfloat.cpp -o t_bigfloat.o
+g++ -std=c++11 \
+		 t_bigfloat.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o t_bigfloat
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -std=c++11 \
+		-c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -DCORE_LEVEL=3 t_expr.cpp -o t_expr.o
+g++ -std=c++11 \
+		 t_expr.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o t_expr
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -std=c++11 \
+		-c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -DCORE_LEVEL=3 t_poly.cpp -o t_poly.o
+g++ -std=c++11 \
+		 t_poly.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o t_poly
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -std=c++11 \
+		-c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -DCORE_LEVEL=3 t_sturm.cpp -o t_sturm.o
+g++ -std=c++11 \
+		 t_sturm.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o t_sturm
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -std=c++11 \
+		-c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -DCORE_LEVEL=3 t_rootOf.cpp -o t_rootOf.o
+g++ -std=c++11 \
+		 t_rootOf.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o t_rootOf
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -std=c++11 \
+		-c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include -DCORE_LEVEL=3 kahan.cpp -o kahan.o
+g++ -std=c++11 \
+		 kahan.o -lcorex++_level3 -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o kahan
+ld: warning: directory not found for option '-L../../mpfr/lib'
+
+Inside subdirectory  tutorial : =-=-=-=-=-=-=-=->>>
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include delaunay.cpp -o delaunay.o
+g++  delaunay.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o delaunay
+ld: warning: directory not found for option '-L../../mpfr/lib'
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../inc -I../../mpfr/include -I../../gmp/include io.cpp -o io.o
+g++  io.o -L../../lib -L../../mpfr/lib -L../../gmp/lib -lcore++ -lmpfr -lgmp -o io
+ld: warning: directory not found for option '-L../../mpfr/lib'
+

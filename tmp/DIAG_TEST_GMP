@@ -1,0 +1,9 @@
+g++ -I. -I../../inc -I../../mpfr/include -I../../gmp/include gmptest.cpp -L../../gmp/lib -lgmp -o gmptest
+./gmptest
+12345 * 67890 = 838102050
+111111111 * 111111111 = 12345678987654321
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>   If the first answer on your screen is 838102050, 
+>>>   and the second answer on your screen is 12,345,678,987,654,321,
+>>>   you have passed the gmp test
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

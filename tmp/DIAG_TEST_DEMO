@@ -1,0 +1,3485 @@
+Inside subdirectory  bareiss : =-=-=-=-=-=-=-=->>>
+./bareiss
+Determinant of A = 2.14748e+9
+  Note: Determinant of A will overflow in CORE_LEVEL 1 
+
+Determinant of B = 0
+  Note: Determinant of B is 0, but shows non-zero in CORE_LEVEL 1
+
+CORRECT!! Determinant of B is 0
+./inverse
+CORE LEVEL 3
+=================================================
+A = 0x7ffee42ec910
+Ident = MatrixT(
+1,0,0,0;
+0,1,0,0;
+0,0,1,0;
+0,0,0,1)
+Determinant of A = 2.14748e+9
+  Note: Determinant of A will overflow in CORE_LEVEL 1 
+CORRECT!! Determinant of A computed by Inverse is OK 
+CORRECT!! det(A).Ident == A*adj(A)
+-----------------
+Determinant of A = 2.14748e+9
+Note: Determinant of A will overflow in CORE_LEVEL 1 
+-----------------
+Determinant of B = 0
+Note: Determinant of B should be 0, but shows non-zero in CORE_LEVEL 1
+-----------------
+Determinant of B = 0
+Note: Determinant of B should be 0, but shows non-zero in CORE_LEVEL 1
+-----------------
+The last row of the adjoint should be [-39, 1, 27, -3] 
+-----------------
+MatrixT(
+101,4,-149,-269;
+-342,-11,731,-224;
+280,6,-609,239;
+-39,1,27,-3)
+-----------------
+Determinant (should be -257) :-257
+-----------------
+Inversion of an identity matrix :
+-----------------
+MatrixT(
+1,0,0,0;
+0,1,0,0;
+0,0,1,0;
+0,0,0,1)
+-----------------
+Inversion of a singular matrix :
+-----------------
+CORRECT ! 0 determinant returned
+-----------------
+
+
+CORE LEVEL 2 (BigFloat)
+=================================================
+A = 0x7ffee42ec910
+Ident = MatrixT(
+1,0,0,0;
+0,1,0,0;
+0,0,1,0;
+0,0,0,1)
+Determinant of A = 2.14748e+9
+  Note: Determinant of A will overflow in CORE_LEVEL 1 
+CORRECT!! Determinant of A computed by Inverse is OK 
+CORRECT!! det(A).Ident == A*adj(A)
+-----------------
+Determinant of A = 2.14748e+9
+Note: Determinant of A will overflow in CORE_LEVEL 1 
+-----------------
+Determinant of B = 0
+Note: Determinant of B should be 0, but shows non-zero in CORE_LEVEL 1
+-----------------
+Determinant of B = 0
+Note: Determinant of B should be 0, but shows non-zero in CORE_LEVEL 1
+-----------------
+The last row of the adjoint should be [-39, 1, 27, -3] 
+-----------------
+MatrixT(
+101,4,-149,-269;
+-342,-11,731,-224;
+280,6,-609,239;
+-39,1,27,-3)
+-----------------
+Determinant (should be -257) :-257
+-----------------
+Inversion of an identity matrix :
+-----------------
+MatrixT(
+1,0,0,0;
+0,1,0,0;
+0,0,1,0;
+0,0,0,1)
+-----------------
+Inversion of a singular matrix :
+-----------------
+CORRECT ! 0 determinant returned
+-----------------
+
+
+CORE LEVEL 2 (BigRat)
+=================================================
+A = 0x7ffee42ec910
+Ident = MatrixT(
+1,0,0,0;
+0,1,0,0;
+0,0,1,0;
+0,0,0,1)
+Determinant of A = 2147483648
+  Note: Determinant of A will overflow in CORE_LEVEL 1 
+CORRECT!! Determinant of A computed by Inverse is OK 
+CORRECT!! det(A).Ident == A*adj(A)
+-----------------
+Determinant of A = 2147483648
+Note: Determinant of A will overflow in CORE_LEVEL 1 
+-----------------
+Determinant of B = 0
+Note: Determinant of B should be 0, but shows non-zero in CORE_LEVEL 1
+-----------------
+Determinant of B = 0
+Note: Determinant of B should be 0, but shows non-zero in CORE_LEVEL 1
+-----------------
+The last row of the adjoint should be [-39, 1, 27, -3] 
+-----------------
+MatrixT(
+101,4,-149,-269;
+-342,-11,731,-224;
+280,6,-609,239;
+-39,1,27,-3)
+-----------------
+Determinant (should be -257) :-257
+-----------------
+Inversion of an identity matrix :
+-----------------
+MatrixT(
+1,0,0,0;
+0,1,0,0;
+0,0,1,0;
+0,0,0,1)
+-----------------
+Inversion of a singular matrix :
+-----------------
+CORRECT ! 0 determinant returned
+-----------------
+
+
+CORE LEVEL 1 (DoubleWrapper)
+=================================================
+A = 0x7ffee42ec910
+Ident = MatrixT(
+1,0,0,0;
+0,1,0,0;
+0,0,1,0;
+0,0,0,1)
+Determinant of A = 2.14748e+09
+  Note: Determinant of A will overflow in CORE_LEVEL 1 
+CORRECT!! Determinant of A computed by Inverse is OK 
+CORRECT!! det(A).Ident == A*adj(A)
+-----------------
+Determinant of A = 2.14748e+09
+Note: Determinant of A will overflow in CORE_LEVEL 1 
+-----------------
+Determinant of B = 0
+Note: Determinant of B should be 0, but shows non-zero in CORE_LEVEL 1
+-----------------
+Determinant of B = 0
+Note: Determinant of B should be 0, but shows non-zero in CORE_LEVEL 1
+-----------------
+The last row of the adjoint should be [-39, 1, 27, -3] 
+-----------------
+MatrixT(
+101,4,-149,-269;
+-342,-11,731,-224;
+280,6,-609,239;
+-39,1,27,-3)
+-----------------
+Determinant (should be -257) :-257
+-----------------
+Inversion of an identity matrix :
+-----------------
+MatrixT(
+1,0,0,0;
+0,1,0,0;
+0,0,1,0;
+0,0,0,1)
+-----------------
+Inversion of a singular matrix :
+-----------------
+CORRECT ! 0 determinant returned
+-----------------
+
+
+CORE LEVEL 1 (No wrapper)
+=================================================
+A = 0x7ffee42ec910
+Ident = MatrixT(
+1,0,0,0;
+0,1,0,0;
+0,0,1,0;
+0,0,0,1)
+Determinant of A = 2.14748e+09
+  Note: Determinant of A will overflow in CORE_LEVEL 1 
+CORRECT!! Determinant of A computed by Inverse is OK 
+CORRECT!! det(A).Ident == A*adj(A)
+-----------------
+Determinant of A = 2.14748e+09
+Note: Determinant of A will overflow in CORE_LEVEL 1 
+-----------------
+Determinant of B = 0
+Note: Determinant of B should be 0, but shows non-zero in CORE_LEVEL 1
+-----------------
+Determinant of B = 0
+Note: Determinant of B should be 0, but shows non-zero in CORE_LEVEL 1
+-----------------
+The last row of the adjoint should be [-39, 1, 27, -3] 
+-----------------
+MatrixT(
+101,4,-149,-269;
+-342,-11,731,-224;
+280,6,-609,239;
+-39,1,27,-3)
+-----------------
+Determinant (should be -257) :-257
+-----------------
+Inversion of an identity matrix :
+-----------------
+MatrixT(
+1,0,0,0;
+0,1,0,0;
+0,0,1,0;
+0,0,0,1)
+-----------------
+Inversion of a singular matrix :
+-----------------
+CORRECT ! 0 determinant returned
+-----------------
+
+Inside subdirectory  benchmark : =-=-=-=-=-=-=-=->>>
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C bigfloat test
+./bm_bigfloat 100 1000 
+it took 0 mseconds!
+./bm_bigfloat 100 10000 
+it took 1 mseconds!
+./bm_bigfloat 100 100000 
+it took 32 mseconds!
+
+Inside subdirectory  bounds : =-=-=-=-=-=-=-=->>>
+time ./tEscapeBound 2000
+Testing escape bound in Core2:
+===============================================
+coreErrorFlag = 0
+default Escape Bound = 10000
+set Escape Bound = 2000
+First machin formula for Pi: 16*atan(1/5) + 4*atan(1/239)
+ = 3.14159265358979323846264338327950288419716939937510582097494
+Second machin formula for Pi: 4*(atan(1/2)+atan(1/5)+atan(1/8))
+ = 3.14159265358979323846264338327950288419716939937510582097494
+===============================================
+CORRECT!!! First machin formula is (conditionally) zero
+CORRECT!!! Second machin formula is (conditionally) zero
+No Error detected
+===============================================
+        0.00 real         0.00 user         0.00 sys
+time ./tEscapeBound 5000
+Testing escape bound in Core2:
+===============================================
+coreErrorFlag = 0
+default Escape Bound = 10000
+set Escape Bound = 5000
+First machin formula for Pi: 16*atan(1/5) + 4*atan(1/239)
+ = 3.14159265358979323846264338327950288419716939937510582097494
+Second machin formula for Pi: 4*(atan(1/2)+atan(1/5)+atan(1/8))
+ = 3.14159265358979323846264338327950288419716939937510582097494
+===============================================
+CORRECT!!! First machin formula is (conditionally) zero
+CORRECT!!! Second machin formula is (conditionally) zero
+No Error detected
+===============================================
+        0.01 real         0.01 user         0.00 sys
+time ./tCutOffBound 200
+Testing CutOff bound in Core2:
+===============================================
+coreErrorFlag = 0
+default Cut Off Bound = 9223372036854775807
+set Cut Off Bound = 200
+WRONG, but OK within Cut-off bound!
+        0.05 real         0.04 user         0.00 sys
+time ./tCutOffBound 700
+Testing CutOff bound in Core2:
+===============================================
+coreErrorFlag = 0
+default Cut Off Bound = 9223372036854775807
+set Cut Off Bound = 700
+WRONG, but OK within Cut-off bound!
+        0.24 real         0.23 user         0.00 sys
+
+Inside subdirectory  chull : =-=-=-=-=-=-=-=->>>
+./chull_level3 < inputs/points > outputs/points.3.ps
+Checks: V, E, F = 18 48 32:	V-E+F = 2	F = 2V-4	2E = 3F
+./chull_level1 < inputs/points > outputs/points.1.ps
+Checks: V, E, F = 18 48 32:	V-E+F = 2	F = 2V-4	2E = 3F
+
+Inside subdirectory  core2paper : =-=-=-=-=-=-=-=->>>
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C sumProd test
+g++ -c -Wfatal-errors -O2 -Wall -DNDEBUG -DCORE_DEBUG -Dmac  -I. -I../../../inc -I../../../mpfr/include -I../../../gmp/include  tSum.cpp -o tSum1.o
+g++  --stack,83886080 tSum1.o -L../../../lib -L../../../mpfr/lib -L../../../gmp/lib -lcore++ -lmpfr -lgmp -o tSum1
+clang: error: unsupported option '--stack,83886080'
+make[4]: *** [tSum1] Error 1
+make[3]: [test] Error 2 (ignored)
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C transcendental test
+./tConst 1000 1
+PI  = 3.141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117067982148086513282306647093844609550582231725359408128481117450284102701938521105559644622948954930381964428810975665933446128475648233786783165271201909145648566923460348610454326648213393607260249141274
+compute pi to 1000 relative precision
+it took 0 mseconds.
+e  = 2.71828182845904523536028747135266249775724709369995957496696762772407663035354759457138217852516642742746639193200305992181741359662904357290033429526059563073813232862794349076323382988075319525101901157383418793070215408914993488416750924476146066808226480016847741185374234544243710753907774499207
+compute e to 1000 relative precision
+it took 0 mseconds.
+square root of PI  = 1.772453850905516027298167483341145182797549456122387128213807789852911284591032181374950656738544665416226823624282570666236152865724422602525093709602787068462037698653105122849925173028950826228932095379267962800174639015351479720516700190185234018585446974494912640313921775525906216405419332500906
+compute square root of pi to 1000 relative precision
+it took 0 mseconds.
+e^2  = 7.389056098930650227230427460575007813180315570551847324087127822522573796079057763384312485079121794773753161265478866123884603692781273374478392213398077774900122895607410753702391330947550682086581820269647868208404220982255234875742462541414679928129331888070763301019337899740729986960095303307515
+compute e^2 to 1000 relative precision
+it took 0 mseconds.
+./tElemFun 
+usage : ./tElemFun function [value] [output digits]
+running default test : comparision results with those of Maple
+compute sin(0.7) to 99 relative precision : 0.644217687237691053672614351399
+CORRECT!!! sin(0.7) correponds to Maple
+compute cos(0.7) to 99 relative precision : 0.764842187284488426255859990192
+CORRECT!!! cos(0.7) correponds to Maple
+compute tan(0.7) to 99 relative precision : 0.842288380463079448128135002213
+CORRECT!!! tan(0.7) correponds to Maple
+compute cot(0.7) to 99 relative precision : 1.18724183212667935367236269369
+CORRECT!!! cot(0.7) correponds to Maple
+compute asin(0.7) to 99 relative precision : 0.775397496610753063740353352715
+CORRECT!!! asin(0.7) correponds to Maple
+compute acos(0.7) to 99 relative precision : 0.795398830184143555490968338925
+CORRECT!!! acos(0.7) correponds to Maple
+compute atan(0.7) to 99 relative precision : 0.61072596438920861654375887649
+CORRECT!!! atan(0.7) correponds to Maple
+compute exp(0.7) to 99 relative precision : 2.01375270747047652162454938858
+CORRECT!!! exp(0.7) correponds to Maple
+compute log2(0.7) to 99 relative precision : -0.514573172829758240428350112258
+CORRECT!!! log2(0.7) correponds to Maple
+compute log(0.7) to 99 relative precision : -0.356674943938732378912638711241
+CORRECT!!! log(0.7) correponds to Maple
+compute log10(0.7) to 99 relative precision : -0.154901959985743169287783741407
+CORRECT!!! log10(0.7) correponds to Maple
+compute sin(0.001) to 166 relative precision : .00099999983333334166666646825397100970015131473480866
+CORRECT!!! sin(0.001) correponds to Maple
+compute cos(0.001) to 166 relative precision : 0.9999995000000416666652777778025793648037918892129
+CORRECT!!! cos(0.001) correponds to Maple
+compute tan(0.001) to 166 relative precision : .0010000003333334666667206349425044180343149597741934
+CORRECT!!! tan(0.001) correponds to Maple
+compute cot(0.001) to 166 relative precision : 999.99966666664444444232804211640209502431508213497
+CORRECT!!! cot(0.001) correponds to Maple
+compute asin(0.001) to 166 relative precision : .0010000001666667416667113095541914906261446976557328
+CORRECT!!! asin(0.001) correponds to Maple
+compute acos(0.001) to 166 relative precision : 1.5
+CORRECT!!! acos(0.001) correponds to Maple
+compute atan(0.001) to 166 relative precision : .00099999966666686666652380963492054401162093455426801
+CORRECT!!! atan(0.001) correponds to Maple
+compute exp(0.001) to 166 relative precision : 1.0010005001667083416680557539930583115630762005807
+CORRECT!!! exp(0.001) correponds to Maple
+compute log2(0.001) to 166 relative precision : -9.9657842846620870436109582884681705275944941790737
+CORRECT!!! log2(0.001) correponds to Maple
+compute log(0.001) to 166 relative precision : -6.9077552789821370520539743640530926228033044658863
+CORRECT!!! log(0.001) correponds to Maple
+compute log10(0.001) to 166 relative precision : -3
+CORRECT!!! log10(0.001) correponds to Maple
+
+Inside subdirectory  compare : =-=-=-=-=-=-=-=->>>
+./compare 10 1
+	 x (789/710) 
+	 y (656/631) 
+	 e == f ? yes (CORRECT)
+e = 2.07378, f = 2.07378
+Total USER time spent: 0.000376 seconds
+Avg. USER time spent: 0.000376 seconds
+
+Inside subdirectory  demos : =-=-=-=-=-=-=-=->>>
+./scheinerman3
+==============================================
+SCHEINERMAN'S TEST
+==============================================
+TEACHER: Show that sqrt(2) + sqrt(5 - 2* sqrt(6))  = sqrt(3)
+
+STUDENT: let me use my calculator...
+
+           X = sqrt(2) + sqrt(5-2 sqrt(6)) 
+             = 1.732050808
+           Y = sqrt(3) 
+             = 1.732050808
+        They are the same!
+
+NARRATOR: Your printout should show X and Y to be 
+             1.732050808
+TEACHER: That is an accident! Your calculator only displays 10 digits.
+
+STUDENT: It cannot be coincidence.
+
+TEACHER: Of course it can.
+         Here, compute this on your calculator:
+         A = sqrt(75025) + sqrt(121393) + sqrt(196418) + sqrt(317811)
+
+STUDENT: OK,...  (after a pause) ... I get
+
+            A = 1629.259889
+
+TEACHER: Good, now compute:
+          B = sqrt(514229) + sqrt(832040)
+
+STUDENT:    Sure,... (after a pause) ... I get
+
+            B = 1629.259889
+         They are both equal to 1629.259889 !! 
+
+NARRATOR: Your printout should show A and B to be 
+             1629.259889
+TEACHER:  But they are NOT the same.
+          Let me show you in Core Library...
+          First, we set the output to display 20 digits (done).
+
+          Here is A again:   1629.2598886331422998
+          Here is B again:   1629.2598886301892384
+
+NARRATOR: Your printout should show 
+             A=1629.2598886331422998
+             B=1629.2598886301892384.
+             All computations so far has at least 100 bits (about 30 digits) of accuracy
+
+TEACHER: You see, these two numbers differ at the 9th decimal place. 
+          This shows that it is impossible to numerically determine
+          if two expressions are the same, no matter how many
+          digits you compute.  They will agree except for the last digit
+	     Going back to our previous example, let us display
+               X = sqrt(2) + sqrt(5 - 2* sqrt(6))
+               Y = sqrt(3)
+          to 70 digits:
+
+NARRATOR: The output digits is now set to 70.
+
+
+ X = sqrt(2) + sqrt(5-2 sqrt(6)) 
+     = 1.732050807568877293527446341506
+
+ Y = sqrt(3) 
+     = 1.73205080756887729352744634151
+
+STUDENT: Hey, they seem to agree up to about 30 digits,
+          but neither one printed 70 digits!
+
+TEACHER: Oh, I know what is going on...
+          I read in the Tutorial that Core Library never prints
+          more digits than it CURRENTLY knows about.
+          Apparently, the current approximations do not have
+          70 digits of accuracy.
+          We must first ask Core Library to approximate X and Y 
+          to at least 70 digits.  Let's see: 70 digits is less
+          than 4*70 = 280 bits.  So we must ask CORE to evaluate
+          to 280 relative bits of precision:
+
+CORE LIBRARY: X and Y are now approximated to 280 bits of relative precision
+
+X = 1.732050807568877293527446341505872366942805253810380628055806979451933
+Y = 1.732050807568877293527446341505872366942805253810380628055806979451933
+
+NARRATOR: Your printout should show X and Y to be 
+    1.732050807568877293527446341505872366942805253810380628055806979451933
+STUDENT: Great, both prints exactly 70 digits.  But why don't
+         we ask Core Library whether X and Y are equal?
+
+CORE LIBRARY:  I declare X and Y equal (CORRECT!)
+STUDENT: Hey, Core Library got it right!
+
+TEACHER: That must be a fluke. Let us run a few more tests.
+         (After a few more identities and non-identities...)
+         Amazing!  Core Library got it right every time!
+         I am convinced that Core Library does some kind of
+         theorem proving.  After all, we know that that
+         it is impossible to decide equality by approximation.
+
+STUDENT: Thanks, teach!  That was a great object lesson.
+
+./pointOnPlane3
+++++++++++++++++++++++++++++++++++++++++++++++
+>  Equation of Plane P is  Sqrt(2)*X + Y + Z - 1 = 0
+>  Number of points on plane P = 1024
+>  Number of points NOT on Plane P = 0
+      CORRECT! (not a single error)
+++++++++++++++++++++++++++++++++++++++++++++++
+
+Inside subdirectory  determinant : =-=-=-=-=-=-=-=->>>
+./determinant inputs/random_50bits_dim_5 10
+start...
+reading input file
+ Using all 3 methods 
+Determinant root bound from Gaussian elimination = 8698
+Determinant root bound from dynamic programming  = 453
+Determinant root bound from factorial expansion  = 453
+Determinant from Gaussian = 2.67790712211799302171833947184e+52
+Determinant from dynamic  = 2.677907122117993021718339471835798748805e+52
+Determinant from factorial= 2.677907122117993021718339471835798748805e+52
+./determinant inputs/random_100bits_dim_5 10
+start...
+reading input file
+ Using all 3 methods 
+Determinant root bound from Gaussian elimination = 16067
+Determinant root bound from dynamic programming  = 1086
+Determinant root bound from factorial expansion  = 1086
+Determinant from Gaussian = 6.06035969145067446273168996352e+103
+Determinant from dynamic  = 6.060359691450674462731689963516558959071e+103
+Determinant from factorial= 6.060359691450674462731689963516558959071e+103
+./determinant inputs/random_200bits_dim_5 10
+start...
+reading input file
+ Using all 3 methods 
+Determinant root bound from Gaussian elimination = 32950
+Determinant root bound from dynamic programming  = 2167
+Determinant root bound from factorial expansion  = 2167
+Determinant from Gaussian = -2.03574538579134639476509574073e+223
+Determinant from dynamic  = -2.03574538579134639476509574073504506447e+223
+Determinant from factorial= -2.03574538579134639476509574073504506447e+223
+./determinant inputs/random_500bits_dim_5 10
+start...
+reading input file
+ Using all 3 methods 
+Determinant root bound from Gaussian elimination = 74332
+Determinant root bound from dynamic programming  = 7336
+Determinant root bound from factorial expansion  = 7336
+Determinant from Gaussian = .000000000000000000441260299757955941293685830224
+Determinant from dynamic  = .0000000000000000004412602997579559412936858302239
+Determinant from factorial= .0000000000000000004412602997579559412936858302239
+# ./determinant inputs/random_double_2 10
+# ./determinant inputs/random_double_5 10
+
+Inside subdirectory  fileIO : =-=-=-=-=-=-=-=->>>
+./fileIO
+The result of 500! = 1220136825991110068701238785423046926253574342803192842192413588385845373153881997605496447502203281863013616477148203584163378722078177200480785205159329285477907571939330603772960859086270429174547882424912726344305670173270769461062802310452644218878789465754777149863494367781037644274033827365397471386477878495438489595537537990423241061271326984327745715546309977202781014561081188373709531016356324432987029563896628911658974769572087926928871281780070265174507768410719624390394322536422605234945850129918571501248706961568141625359056693423813008856249246891564126775654481886506593847951775360894005745238940335798476363944905313062323749066445048824665075946735862074637925184200459369692981022263971952597190945217823331756934581508552332820762820023402626907898342451712006207714640979456116127629145951237229913340169552363850942885592018727433795173014586357570828355780158735432768888680120399882384702151467605445407663535984174430480128938313896881639487469658817504506926365338175055478128640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+Write the result to the file bin.big in base = 2...
+Read the result from the file bin.big...
+CORRECT! write and read from file
+
+Write the result to the file octal.big in base = 8...
+Read the result from the file octal.big...
+CORRECT! write and read from file
+
+Write the result to the file dec.big in base = 10...
+Read the result from the file dec.big...
+CORRECT! write and read from file
+
+Write the result to the file hex.big in base = 16...
+Read the result from the file hex.big...
+CORRECT! write and read from file
+
+Inside subdirectory  fortune : =-=-=-=-=-=-=-=->>>
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C vor test
+./voronoi -c < inputs/lattice9 > outputs/lattice9.ps
+./voronoi -c < inputs/points100 > outputs/points100.ps
+./voronoi -ct < inputs/points100 > outputs/points100-tri.ps
+
+Inside subdirectory  gaussian : =-=-=-=-=-=-=-=->>>
+./gaussian_level3 inputs/MatHilbert6 3
+Determinant = .00000000000000000536729988735868773278883035392
+
+./gaussian_level2 inputs/MatHilbert6 3
+Determinant = .000000000000000005367299887381765416244378392401223424619
+
+./gaussian_level1 inputs/MatHilbert6 3
+Determinant = 5.36729988638697354891330301499957658891e-18
+
+./gaussian_level3 inputs/MatZero4 3
+Determinant = 0
+
+./gaussian_level2 inputs/MatZero4 3
+Determinant = .0000000000000003747002708109903324
+
+./gaussian_level1 inputs/MatZero4 3
+Determinant = 2.99760216648792265914380550384521484375e-15
+
+./pivotgaussianT_level3 inputs/pivot4 3
+Determinant = 1
+
+./pivotgaussianT_level2 inputs/pivot4 3
+Determinant = 1
+
+./pivotgaussianT_level1 inputs/pivot4 3
+Determinant = 1
+
+
+Inside subdirectory  geom2d : =-=-=-=-=-=-=-=->>>
+./testLine
+Point a = Point2d(0,0)
+Point b = Point2d(10,2.64575)
+Point c = Point2d(5,8.66025)
+Point C = Point2d(5,8.66025)
+In triangle(a, b, c), 
+   g1 is the bisector of line a-b :Line2d[Point2d(6.32288,-3.67712)===Point2d(3.67712,6.32288);Vector(2.64575,-10)]
+   g2 is the bisector of line a-c :Line2d[Point2d(6.83013,1.83013)===Point2d(-1.83013,6.83013);Vector(8.66025,-5)]
+   g3 is the bisector of line b-c :Line2d[Point2d(10.5073,8.153)===Point2d(4.49275,3.153);Vector(6.0145,5)]
+but G3 is a perturbation of g3    :Line2d[Point2d(10.5073,8.153)===Point2d(4.49275,3.153);Vector(6.0145,5)]
+  g1 and g2 intersect at p1 = Point2d(4.51164,3.16871)
+  g2 and g3 intersect at p2 = Point2d(4.51164,3.16871)
+  g3 and g1 intersect at p3 = Point2d(4.51164,3.16871)
+  G3 and g1 intersects at P3 = Point2d(4.51164,3.16871)
+p1 = p2 (CORRECT!) 
+p1 = p3 (CORRECT!) 
+p2 = p3 (CORRECT!) 
+p2 != P3 (CORRECT!) 
+./pointOnCircle
+
+ Circle c1: Circle2d[ center=Point2d(2,2), radius=2]
+This program tests if given points are on the circle 
+   Points test[0] - test[3] and p4 should be on the circle 
+   while the others are not
+p4(0, 2) is on the circle (CORRECT!)
+sqrt(2.0) = 1.41421
+point[0] Point2d(3.73205,1) is on the circle (CORRECT!)
+point[1] Point2d(3.41421,3.41421) is on the circle (CORRECT!)
+point[2] Point2d(0.585786,3.41421) is on the circle (CORRECT!)
+point[3] Point2d(0.267949,1) is on the circle (CORRECT!)
+point[4] Point2d(5,6) is not on the circle (CORRECT!)
+point[5] Point2d(-2,3) is not on the circle (CORRECT!)
+point[6] Point2d(-1,-2) is not on the circle (CORRECT!)
+point[7] Point2d(2,-3) is not on the circle (CORRECT!)
+
+Inside subdirectory  generic : =-=-=-=-=-=-=-=->>>
+./sample
+    C++'s Default Printout Digits is 6
+    CORE Default Printout Digits is 6
+    x = 1.44;  // standard C++ literal input
+Printout of x: 1.44
+      sqrt(x): 1.2
+==================================================
+    y = "1.44". // string literal; defInputDigits = 20
+    Set CORE Printout Digits to 6 
+Printout of y: 1.44
+      sqrt(y): 1.2
+==================================================
+    z = "1.44". // string literal; defInputDigits = Infinite
+    Set CORE Printout Digits to 6 
+Printout of z: 1.44
+      sqrt(z): 1.2
+==================================================
+    Above, x, y and z look the same.
+    To see that they are not the same, we force more
+    precision in evaluation and in output:
+ ---Set defRelPrec 133 bits = 40 digits
+ ---Set defPrintDigits to 40 
+x = 1.44
+y = 1.44
+z = 1.44
+sqrt(x) = 1.199999999999999977795539507496868986095
+sqrt(y) = 1.199999999999999999999096498189595412972
+sqrt(z) = 1.2
+==================================================
+   Even though sqrt(z) looks like 1.2, the only way to
+   verify this is to do a comparison with 1.2:
+CORRECT!  sqrt(z) = 1.2 exactly
+==================================================
+
+Inside subdirectory  interval : =-=-=-=-=-=-=-=->>>
+./interval_t
+Unit Test for Templated Interval Arithmetic Class
+LEVEL (3)
+Interval(0,1) = [ 0, 2 ]
+Interval(123) = [ 123, 123 ]
+Interval(0.034, 1.2) = [ .034, 1.2 ]
+Passed.
+LEVEL (2) - BigFloat
+Interval(0,1) = [ 0, 2 ]
+Interval(123) = [ 123, 123 ]
+Interval(0.034, 1.2) = [ .034, 1.2 ]
+Passed.
+LEVEL (2) - BigRat
+Interval(0,1) = [ 0, 2 ]
+Interval(123) = [ 123, 123 ]
+Interval(0.034, 1.2) = [ 1224979098644775/36028797018963968, 5404319552844595/4503599627370496 ]
+Passed.
+LEVEL (1) - No wrappers
+Interval(0,1) = [ 0, 2 ]
+Interval(123) = [ 123, 123 ]
+Interval(0.034, 1.2) = [ 0.034000000000000002442, 1.1999999999999999556 ]
+Passed.
+LEVEL (1) - Wrappers
+Interval(0,1) = [ 0, 2 ]
+Interval(123) = [ 123, 123 ]
+Interval(0.034, 1.2) = [ 0.034000000000000002442, 1.1999999999999999556 ]
+Passed.
+
+Inside subdirectory  kahan : =-=-=-=-=-=-=-=->>>
+./kahan
+  n = 5000;   G(n) = 1 Correct! 
+  n = 5001;   G(n) = 1 Correct! 
+  n = 5002;   G(n) = 1 Correct! 
+  n = 5003;   G(n) = 1 Correct! 
+  n = 5004;   G(n) = 1 Correct! 
+  n = 5005;   G(n) = 1 Correct! 
+  n = 5006;   G(n) = 1 Correct! 
+  n = 5007;   G(n) = 1 Correct! 
+  n = 5008;   G(n) = 1 Correct! 
+  n = 5009;   G(n) = 1 Correct! 
+
+Inside subdirectory  pi : =-=-=-=-=-=-=-=->>>
+./newPi 6644 0
+Time = 0.017469 seconds
+Output precision is 2000 digits 
+outputPrec = 2000
+ Pi = 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679821480865132823066470938446095505822317253594081284811174502841027019385211055596446229489549303819644288109756659334461284756482337867831652712019091456485669234603486104543266482133936072602491412737245870066063155881748815209209628292540917153643678925903600113305305488204665213841469519415116094330572703657595919530921861173819326117931051185480744623799627495673518857527248912279381830119491298336733624406566430860213949463952247371907021798609437027705392171762931767523846748184676694051320005681271452635608277857713427577896091736371787214684409012249534301465495853710507922796892589235420199561121290219608640344181598136297747713099605187072113499999983729780499510597317328160963185950244594553469083026425223082533446850352619311881710100031378387528865875332083814206171776691473035982534904287554687311595628638823537875937519577818577805321712268066130019278766111959092164201989380952572010654858632788659361533818279682303019520353018529689957736225994138912497217752834791315155748572424541506959508295331168617278558890750983817546374649393192550604009277016711390098488240128583616035637076601047101819429555961989467678374494482553797747268471040475346462080466842590694912933136770289891521047521620569660240580381501935112533824300355876402474964732639141992726042699227967823547816360093417216412199245863150302861829745557067498385054945885869269956909272107975093029553211653449872027559602364806654991198818347977535663698074265425278625518184175746728909777727938000816470600161452491921732172147723501414419735685481613611573525521334757418494684385233239073941433345477624168625189835694855620992192221842725502542568876717904946016534668049886272327917860857843838279679766814541009538837863609506800642251252051173929848960841284886269456042419652850222106611863067442786220391949450471237137869609563643719172874677646575739624138908658326459958133904780275901
+./newPi 6644 1
+Number of iterations = 11
+Time = 0.001246 seconds
+Output precision is 2000 digits 
+outputPrec = 2000
+ Pi = 3.1415926535897932238968843563742302968564019034408742073361005241815456637406236626563946226296291477201967466073462145434996189558811763766076936894945231798317772752744195302268960753425081036018311768729107063855903968430738919057271840574883550017738950543806536959014292892359023506866481196866994929422929881903061188539170598002242130834037727114242116208957028744708113548893519243927322806631991029425679834510593775344864195498432351419846656837219840953504636407372796227485862810783960332144653530689285176604430679999954974923407989477259495911761116876545244479070846667135024062416733750370049629526592289887710400676570821821707238557263807450250272431504049130987287994057218417171975690296095610604055589921209955235129719342098867774437311543525961835271534922848163018797136739432064841670441029729651106168532776167782928968966125598980012732718523336987184846542260277154322514712068667567262155504142752358466082396121064660300080854558254730455272742318224845812326505640993170172657683570907026383661502509624426005715489550831674787665441964101002269220081894191171440277135674832794125734132629850630862113448937372182606587883098659584298843642626475888097077706242596244338714884161038679220612128292928901635387985942674132171719155959046555419067578753169679183368512295271785064487397258317737863904142607723526725332911483239976989873963741738694429811015033594348069291375206744422811695241270689678981227082368996117737953425102691913560118405286714394151323390273257343627780289244070950997815072381152121436655097899493613219897374649573840198770227822663617709067799854492602451111989277936582979545169935929251115717432380682239966027563555356216995073039709582702202613164375526574933865274347873312462869527999696131965617877812251012560367839671807774472562569654401734152239129338604880459322177413733697101578499202966681763397091228302845552537052892429714964761358954303473863176697346704045470803399616848167471773212431816490554912537377323544575206977
+
+Inside subdirectory  poly : =-=-=-=-=-=-=-=->>>
+./tSturmBF
+------------------------------------------------------------
+Relative Precision is 9223372036854775807
+Print Digits is 20
+Iteration Stops when delta < 8.7e-19
+------------------------------------------------------------
+=============================================================
+TEST 1:  Polynomial of degree 16 with 6 real roots
+=============================================================
+Polynomial is -1.13e+2 + (0.e+0)*x^1 + (2.24e+2)*x^2 + (0.e+0)*x^3 + (2.e+2)*x^4 + (0.e+0)*x^5 + (-1.84e+2)*x^6 + (0.e+0)*x^7 + (-9.8e+1)*x^8 + (0.e+0)*x^9 + (6.4e+1)*x^10 + (0.e+0)*x^11 + (8.e+0)*x^12 + (0.e+0)*x^13 + (-8.e+0)*x^14 + (0.e+0)*x^15 + (1.e+0)*x^16
+ Separation bound = 1.05402251510826e-50
+ sqrt(1 + sqrt(5 - 3*sqrt(1 + sqrt(2)))) = 1.25776013082594419e+0
+The preceding is a root (CORRECT!)
+   Number of roots is 6 (CORRECT!)
+1th Root is in [-2.0268859630081534374e+0 ; -2.0268859630081534374e+0]
+ (CORRECT!) Precision attained
+2th Root is in [-1.2577601308259441892e+0 ; -1.2577601308259441892e+0]
+ (CORRECT!) Precision attained
+3th Root is in [-6.465597059086683897e-1 ; -6.465597059086683897e-1]
+ (CORRECT!) Precision attained
+4th Root is in [6.465597059086683897e-1 ; 6.465597059086683897e-1]
+ (CORRECT!) Precision attained
+5th Root is in [1.2577601308259441892e+0 ; 1.2577601308259441892e+0]
+ (CORRECT!) Precision attained
+6th Root is in [2.0268859630081534374e+0 ; 2.0268859630081534374e+0]
+ (CORRECT!) Precision attained
+=============================================================
+TEST 2 :  Polynomial X^2 + 1, no roots! 
+=============================================================
+   Number of roots is 0 (CORRECT!)
+=============================================================
+TEST 3:   Legendre Polynomial 35 X^4 - 20 X^2 + 3 
+=============================================================
+   Number of roots is 4 (CORRECT!)
+1th Root is in [-8.6113631159405257522e-1 ; -8.6113631159405257522e-1]
+ (CORRECT!) Precision attained
+2th Root is in [-3.399810435848562648e-1 ; -3.399810435848562648e-1]
+ (CORRECT!) Precision attained
+3th Root is in [3.399810435848562648e-1 ; 3.399810435848562648e-1]
+ (CORRECT!) Precision attained
+4th Root is in [8.6113631159405257522e-1 ; 8.6113631159405257522e-1]
+ (CORRECT!) Precision attained
+=============================================================
+TEST 4:   Mignotte Polynomial,  P(X) = X^20 - 2(100X-1)^2 
+=============================================================
+   Number of roots is 4 (CORRECT!)
+1th Root is in [-1.7346964402607318572e+0 ; -1.7346964402607318572e+0]
+ (CORRECT!) Precision attained
+2th Root is in [9.9999999999999999918e-3 ; 1.e-2]
+ (CORRECT!) Precision attained
+3th Root is in [1.e-2 ; 1.0000000000000000008e-2]
+ (CORRECT!) Precision attained
+4th Root is in [1.7324741845654003171e+0 ; 1.7324741845654003171e+0]
+ (CORRECT!) Precision attained
+=============================================================
+TEST 5:   Roots of Unity,  P(X) = X^99 - 1 
+=============================================================
+   Number of roots is 1 (CORRECT!)
+1th Root is in [1.e+0 ; 1.e+0]
+ (CORRECT!) Precision attained
+=============================================================
+TEST 6:   Wilkinson Polynomial of degree 6 (roots are 1,..,6)
+=============================================================
+   Number of roots is 6 (CORRECT!)
+1th Root is in [1.e+0 ; 1.e+0]
+ (CORRECT!) Precision attained
+2th Root is in [2.e+0 ; 2.e+0]
+ (CORRECT!) Precision attained
+3th Root is in [3.e+0 ; 3.e+0]
+ (CORRECT!) Precision attained
+4th Root is in [4.e+0 ; 4.e+0]
+ (CORRECT!) Precision attained
+5th Root is in [5.e+0 ; 5.e+0]
+ (CORRECT!) Precision attained
+6th Root is in [6.e+0 ; 6.e+0]
+ (CORRECT!) Precision attained
+=============================================================
+TEST 6a:   Perturbed Wilkinson6 (add 1 to constant coeff)
+   NOTE:   Roots are more sensitive to perturbations in higher degree coeffs
+=============================================================
+   Number of roots is 6 (CORRECT!)
+1th Root is in [1.0084970428019624964e+0 ; 1.0084970428019624964e+0]
+ (CORRECT!) Precision attained
+2th Root is in [1.9600221174306065039e+0 ; 1.960022117430606504e+0]
+ (CORRECT!) Precision attained
+3th Root is in [3.0866222847436966699e+0 ; 3.0866222847436966699e+0]
+ (CORRECT!) Precision attained
+4th Root is in [3.9133777152563033301e+0 ; 3.9133777152563033301e+0]
+ (CORRECT!) Precision attained
+5th Root is in [5.039977882569393496e+0 ; 5.039977882569393496e+0]
+ (CORRECT!) Precision attained
+6th Root is in [5.9915029571980375036e+0 ; 5.9915029571980375036e+0]
+ (CORRECT!) Precision attained
+=============================================================
+TEST 6b:   Perturbed Wilkinson6 (add 1 to coeff of X^2)
+=============================================================
+   Number of roots is 2 (CORRECT!)
+1th Root is in [1.0086476259817998943e+0 ; 1.0086476259817998943e+0]
+ (CORRECT!) Precision attained
+2th Root is in [1.8706587600173800855e+0 ; 1.8706587600173800855e+0]
+ (CORRECT!) Precision attained
+=============================================================
+TEST 6c:   Perturbed Wilkinson6 (add 1 to coeff of X^5)
+=============================================================
+   Number of roots is 2 (CORRECT!)
+1th Root is in [1.0088894965494693015e+0 ; 1.0088894965494693015e+0]
+ (CORRECT!) Precision attained
+2th Root is in [1.6245496096925685859e+0 ; 1.6245496096925685859e+0]
+ (CORRECT!) Precision attained
+=============================================================
+TEST 7:   Wilkinson Polynomial of degree 10 (roots are 1,..,10)
+       	(THIS USED TO BE SLOW, BUT NO LONGER)
+=============================================================
+ The smallest root lies in the interval [0.e+0, 1.520344972610473633e+0]
+ The 3rd smallest root lies in the interval [2.280517458915710449e+0, 3.040689945220947266e+0]
+ The largest root lies in the interval [9.122069835662841797e+0, 1.216275978088378906e+1]
+ The 3rd largest root lies in the interval7.601724863052368164e+0, 8.36189734935760498e+0]
+ The 11th smallest root lies in the interval [1.e+0, 0.e+0]
+ 		It is undefined, and so prints as [1,0]
+ The 11th largest root lies in the interval [1.e+0, 0.e+0]
+ 		It is undefined, and so prints as [1,0]
+=============================================================
+SPECIAL TESTS: Polynomials with multiple roots 
+=============================================================
+SPECIAL TESTS: Linear Polynomial 
+ The first root of X-2 is in the interval [0.e+0, 4.e+0]
+=============================================================
+SPECIAL TESTS: Polynomial with Zero Tail Coefficients
+   Number of roots is 7 (CORRECT!)
+1th Root is in [0.e+0 ; 0.e+0]
+ (CORRECT!) Precision attained
+2th Root is in [1.0084970428019624964e+0 ; 1.0084970428019624964e+0]
+ (CORRECT!) Precision attained
+3th Root is in [1.960022117430606504e+0 ; 1.960022117430606504e+0]
+ (CORRECT!) Precision attained
+4th Root is in [3.0866222847436966699e+0 ; 3.0866222847436966699e+0]
+ (CORRECT!) Precision attained
+5th Root is in [3.9133777152563033301e+0 ; 3.9133777152563033301e+0]
+ (CORRECT!) Precision attained
+6th Root is in [5.039977882569393496e+0 ; 5.039977882569393496e+0]
+ (CORRECT!) Precision attained
+7th Root is in [5.9915029571980375036e+0 ; 5.9915029571980375036e+0]
+ (CORRECT!) Precision attained
+=============================================================
+SPECIAL TESTS: Polynomial with  roots of multiplicity greater than one 
+   Number of roots is 2 (CORRECT!)
+1th Root is in [-8.284271247461900976e-1 ; -8.284271247461900976e-1]
+ (CORRECT!) Precision attained
+2th Root is in [4.8284271247461900976e+0 ; 4.8284271247461900976e+0]
+ (CORRECT!) Precision attained
+=============================================================
+                END TEST 
+
+Number type NT = BigFloat
+=============================================================
+./tDescartesBF
+------------------------------------------------------------
+Relative Precision is 9223372036854775807
+Print Digits is 20
+Iteration Stops when delta < 8.7e-19
+------------------------------------------------------------
+=============================================================
+TEST 1:  Polynomial of degree 16 with 6 real roots
+=============================================================
+Polynomial is -1.13e+2 + (0.e+0)*x^1 + (2.24e+2)*x^2 + (0.e+0)*x^3 + (2.e+2)*x^4 + (0.e+0)*x^5 + (-1.84e+2)*x^6 + (0.e+0)*x^7 + (-9.8e+1)*x^8 + (0.e+0)*x^9 + (6.4e+1)*x^10 + (0.e+0)*x^11 + (8.e+0)*x^12 + (0.e+0)*x^13 + (-8.e+0)*x^14 + (0.e+0)*x^15 + (1.e+0)*x^16
+ Separation bound = 1.05402251510826e-50
+ sqrt(1 + sqrt(5 - 3*sqrt(1 + sqrt(2)))) = 1.25776013082594419e+0
+The preceding is a root (CORRECT!)
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+   Number of roots is 6 (CORRECT!)
+1th Root is in [-6.465597059086683897e-1 ; -6.465597059086683897e-1]
+ (CORRECT!) Precision attained
+2th Root is in [-1.2577601308259441892e+0 ; -1.2577601308259441892e+0]
+ (CORRECT!) Precision attained
+3th Root is in [-2.0268859630081534374e+0 ; -2.0268859630081534374e+0]
+ (CORRECT!) Precision attained
+4th Root is in [6.465597059086683897e-1 ; 6.465597059086683897e-1]
+ (CORRECT!) Precision attained
+5th Root is in [1.2577601308259441892e+0 ; 1.2577601308259441892e+0]
+ (CORRECT!) Precision attained
+6th Root is in [2.0268859630081534374e+0 ; 2.0268859630081534374e+0]
+ (CORRECT!) Precision attained
+=============================================================
+TEST 2 :  Polynomial X^2 + 1, no roots! 
+=============================================================
+   Number of roots is 0 (CORRECT!)
+=============================================================
+TEST 3:   Legendre Polynomial 35 X^4 - 20 X^2 + 3 
+=============================================================
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+   Number of roots is 4 (CORRECT!)
+1th Root is in [-3.3998104358485626484e-1 ; -3.399810435848562648e-1]
+ (CORRECT!) Precision attained
+2th Root is in [-8.6113631159405257522e-1 ; -8.6113631159405257522e-1]
+ (CORRECT!) Precision attained
+3th Root is in [3.3998104358485626477e-1 ; 3.399810435848562648e-1]
+ (CORRECT!) Precision attained
+4th Root is in [8.6113631159405257522e-1 ; 8.6113631159405257522e-1]
+ (CORRECT!) Precision attained
+=============================================================
+TEST 4:   Mignotte Polynomial,  P(X) = X^20 - 2(100X-1)^2 
+=============================================================
+4Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+   Number of roots is 4 (CORRECT!)
+1th Root is in [-1.7346964402607318572e+0 ; -1.7346964402607318572e+0]
+ (CORRECT!) Precision attained
+2th Root is in [1.e-2 ; 1.e-2]
+ (CORRECT!) Precision attained
+3th Root is in [1.e-2 ; 1.e-2]
+ (CORRECT!) Precision attained
+4th Root is in [1.7324741845654003171e+0 ; 1.7324741845654003171e+0]
+ (CORRECT!) Precision attained
+=============================================================
+TEST 5:   Roots of Unity,  P(X) = X^99 - 1 
+=============================================================
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+   Number of roots is 1 (CORRECT!)
+1th Root is in [1.e+0 ; 1.e+0]
+ (CORRECT!) Precision attained
+=============================================================
+TEST 6:   Wilkinson Polynomial of degree 6 (roots are 1,..,6)
+=============================================================
+   Number of roots is 6 (CORRECT!)
+1th Root is in [2.e+0 ; 2.e+0]
+ (CORRECT!) Precision attained
+2th Root is in [2.e+0 ; 2.e+0]
+ (CORRECT!) Precision attained
+3th Root is in [2.e+0 ; 2.e+0]
+ (CORRECT!) Precision attained
+4th Root is in [4.e+0 ; 4.e+0]
+ (CORRECT!) Precision attained
+5th Root is in [4.e+0 ; 4.e+0]
+ (CORRECT!) Precision attained
+6th Root is in [6.e+0 ; 6.e+0]
+ (CORRECT!) Precision attained
+=============================================================
+TEST 6a:   Perturbed Wilkinson6 (add 1 to constant coeff)
+   NOTE:   Roots are more sensitive to perturbations in higher degree coeffs
+=============================================================
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+   Number of roots is 6 (CORRECT!)
+1th Root is in [1.0084970428019624964e+0 ; 1.0084970428019624964e+0]
+ (CORRECT!) Precision attained
+2th Root is in [1.960022117430606504e+0 ; 1.960022117430606504e+0]
+ (CORRECT!) Precision attained
+3th Root is in [3.0866222847436966699e+0 ; 3.0866222847436966699e+0]
+ (CORRECT!) Precision attained
+4th Root is in [3.9133777152563033301e+0 ; 3.9133777152563033301e+0]
+ (CORRECT!) Precision attained
+5th Root is in [5.039977882569393496e+0 ; 5.039977882569393496e+0]
+ (CORRECT!) Precision attained
+6th Root is in [5.9915029571980375036e+0 ; 5.9915029571980375036e+0]
+ (CORRECT!) Precision attained
+=============================================================
+TEST 6b:   Perturbed Wilkinson6 (add 1 to coeff of X^2)
+=============================================================
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+   Number of roots is 2 (CORRECT!)
+1th Root is in [1.0086476259817998943e+0 ; 1.0086476259817998943e+0]
+ (CORRECT!) Precision attained
+2th Root is in [1.8706587600173800855e+0 ; 1.8706587600173800855e+0]
+ (CORRECT!) Precision attained
+=============================================================
+TEST 6c:   Perturbed Wilkinson6 (add 1 to coeff of X^5)
+=============================================================
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+   Number of roots is 2 (CORRECT!)
+1th Root is in [1.0088894965494693015e+0 ; 1.0088894965494693015e+0]
+ (CORRECT!) Precision attained
+2th Root is in [1.6245496096925685859e+0 ; 1.6245496096925685859e+0]
+ (CORRECT!) Precision attained
+=============================================================
+TEST 7:   Wilkinson Polynomial of degree 10 (roots are 1,..,10)
+       	(THIS USED TO BE SLOW, BUT NO LONGER)
+=============================================================
+1.520344972610473633e+0
+ The smallest root lies in the interval [0.e+0, 1.520344972610473633e+0]
+ The 3rd smallest root lies in the interval [2.280517458915710449e+0, 3.040689945220947266e+0]
+ The largest root lies in the interval [9.122069835662841797e+0, 1.216275978088378906e+1]
+ The 3rd largest root lies in the interval7.601724863052368164e+0, 8.36189734935760498e+0]
+ The 11th smallest root lies in the interval [1.e+0, 0.e+0]
+ 		It is undefined, and so prints as [1,0]
+ The 11th largest root lies in the interval [1.e+0, 0.e+0]
+ 		It is undefined, and so prints as [1,0]
+=============================================================
+SPECIAL TESTS: Polynomials with multiple roots 
+=============================================================
+SPECIAL TESTS: Linear Polynomial 
+ The first root of X-2 is in the interval [0.e+0, 4.e+0]
+=============================================================
+SPECIAL TESTS: Polynomial with Zero Tail Coefficients
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+   Number of roots is 7 (CORRECT!)
+1th Root is in [0.e+0 ; 0.e+0]
+ (CORRECT!) Precision attained
+2th Root is in [1.0084970428019624964e+0 ; 1.0084970428019624964e+0]
+ (CORRECT!) Precision attained
+3th Root is in [1.9600221174306065039e+0 ; 1.960022117430606504e+0]
+ (CORRECT!) Precision attained
+4th Root is in [3.0866222847436966699e+0 ; 3.0866222847436966699e+0]
+ (CORRECT!) Precision attained
+5th Root is in [3.9133777152563033301e+0 ; 3.9133777152563033301e+0]
+ (CORRECT!) Precision attained
+6th Root is in [5.039977882569393496e+0 ; 5.039977882569393496e+0]
+ (CORRECT!) Precision attained
+7th Root is in [5.9915029571980375036e+0 ; 5.9915029571980375036e+0]
+ (CORRECT!) Precision attained
+=============================================================
+SPECIAL TESTS: Polynomial with  roots of multiplicity greater than one 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+   Number of roots is 2 (CORRECT!)
+1th Root is in [-8.284271247461900976e-1 ; -8.284271247461900976e-1]
+ (CORRECT!) Precision attained
+2th Root is in [4.8284271247461900976e+0 ; 4.8284271247461900976e+0]
+ (CORRECT!) Precision attained
+=============================================================
+                END TEST 
+
+Number type NT = BigFloat
+=============================================================
+./tPoly
+ ================ START OF TEST POLY ================ 
+================================================
+CONSTRUCTORS 
+================================================
+Zero Poly (zP) :
+>  Polynomial<NT> ( deg = -1)
+
+CORRECT: Zero() = zP
+Unity Poly (oneP) :
+>  Polynomial<NT> ( deg = 0,
+>  coeff c0,c1,... = 1)
+
+CORRECT: Unity() = oneP
+Another Unit Poly U :
+>  Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = 1, 0, 0, 0, 0, 0)
+
+P4 :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Q, copy of P4 :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+================================================
+DUMPING POLYNOMIALS (normal and Maple) 
+================================================
+cerr:>  Dumping polynomials to cerr: 
+cout:>  Dumping polynomials to cerr: 
+# >This is P4 (output to cerr): 
+# 1 + 2*x + 3*x^2
+#  + 4*x^3 + 5*x^4>  Dumping to cerr : U (unit poly):
+# 1>  Next is a maple Dump of polynomial P4:
+1 + (2)*x^1 + (3)*x^2 + (4)*x^3 + (5)*x^4
+
+ Note: mapleDump does not take any arguments...
+================================================
+EXPAND, CONTRACT, REVERSE, MakeTailCoeffNonzero, NEGATE 
+================================================
+Null extension of Q :
+>  n =-2 (should be -2) 
+>  Unchanged  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Expansion of Q :
+>  n =7 (should be 7) 
+>  New  Q :
+>  Polynomial<NT> ( deg = 7,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5, 0, 0, 0)
+>  getTrueDegree(Q) = 4 (should be 4)
+Reduce Q :
+> n = 4 (should be 4) 
+>  This should be the original Q:
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Nothing to reduce in Q :
+> n = -2 (CORRECT! n = -2) 
+>  Original P4 :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+>  Original Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+>  Reversed  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 5, 4, 3, 2, 1)
+>  2nd Reversed  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+CORRECT! reverse(reverse)=ident
+>  Negated  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = -1, -2, -3, -4, -5)
+CORRECT! negate(negate)=ident
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+================================================
+ASSIGNMENT 
+================================================
+Assignment P5=P4 :  Here is P5
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Updated P5 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -1, 2, -3, 4, -5, 6)
+
+================================================
+ARITHMETIC 
+================================================
+Addition, S = P5 + P4 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = 0, 4, 0, 8, 0, 6)
+
+Difference, S = P5 - P4 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -2, 0, -6, 0, -10, 6)
+
+Scalar Multiply of S * 10 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -20, 0, -60, 0, -100, 60)
+
+S mulXpower(0) :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -20, 0, -60, 0, -100, 60)
+
+S mulXpower(3) :
+>   Polynomial<NT> ( deg = 8,
+>  coeff c0,c1,... = 0, 0, 0, -20, 0, -60, 0, -100, 60)
+
+S mulXpower(-4) :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 0, -60, 0, -100, 60)
+
+Unary Minus, -S :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 0, 60, 0, 100, -60)
+
+Product, P = P5 * P4 :
+>   Polynomial<NT> ( deg = 9,
+>  coeff c0,c1,... = -1, 0, -2, 0, -3, 6, -2, 18, -1, 30)
+
+Power, P5^0 :
+>   Polynomial<NT> ( deg = 0,
+>  coeff c0,c1,... = 1)
+
+Power, P5^1 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -1, 2, -3, 4, -5, 6)
+
+Power, P5^2 :
+>   Polynomial<NT> ( deg = 10,
+>  coeff c0,c1,... = 1, -4, 10, -20, 35, -56, 70, -76, 73, -60, 36)
+
+Power, P5^3 :
+>   Polynomial<NT> ( deg = 15,
+>  coeff c0,c1,... = -1, 6, -21, 56, -126, 252, -441, 684, -954, 1204, -1365, 1344, -1169, 882, -540, 216)
+
+================================================
+REMAINDERS 
+================================================
+P7 :
+>   Polynomial<NT> ( deg = 7,
+>  coeff c0,c1,... = 0, 0, 0, 1, 2, 3, 4, 5)
+
+P2 :
+>   Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = 2, 0, 3)
+
+P7.pseudoRemainder(P2) :
+>   Polynomial<NT> ( deg = 1,
+>  coeff c0,c1,... = 8, 22)
+
+CORRECT! 22x+8 is pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+P26 = Polynomial<NT> ( deg = 16,
+>  coeff c0,c1,... = 1, 8, 36, 120, 330, 768, 1544, 2728, 4275, 5920, 7256, 7848, 7386, 5880, 3900, 2000, 625)
+
+p26 = Polynomial<NT> ( deg = 16,
+>  coeff c0,c1,... = 1, 8, 36, 120, 330, 768, 1544, 2728, 4275, 5920, 7256, 7848, 7386, 5880, 3900, 2000, 625)
+
+CORRECT! pseudoQuotient of (P4)^5 divided P4
+CORRECT! pseudoRemainder of (P4)^5 divided P4 is 0
+================================================
+EVALUATION 
+================================================
+Evaluation, of P5 :
+>   P5(BigFloat(0)) = -1>   P5(Expr(1)) = 3
+>   P5(Expr(2)) = 135
+>   P5(Expr("1.2")) = 8.55392
+>   P5(Expr(1.2)) = 8.55392
+>   Is P5(Expr("1.2")) == P5(Expr(1.2)) ?  No (CORRECT!)
+
+================================================
+DIFFERENTIATION 
+================================================
+Differentiate P5 zero times:
+>  P5 = Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -1, 2, -3, 4, -5, 6)
+
+Differentiation, of P5 :
+>  P5' = Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 2, -6, 12, -20, 30)
+
+Differentiate twice :
+>  P5'' = Polynomial<NT> ( deg = 3,
+>  coeff c0,c1,... = -6, 24, -60, 120)
+
+Differentiate thrice :
+>  P5''' = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = 24, -120, 360)
+
+================================================
+COMPARISON
+================================================
+Testing for Zero Polynomial: 
+>   CORRECT! zP is the zero polynomial
+Testing for Unit Polynomial: 
+>   CORRECT! oneP is the unit polynomial
+Comparing P5 and P4: 
+>   CORRECT! they are not equal 
+================================================
+Testing parsing of polynomials from string input 
+================================================
+P10 = Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, -2, 3, -4, 5)
+
+P10 is CORRECT!
+P11 = Polynomial<NT> ( deg = 3,
+>  coeff c0,c1,... = 1, 3, 3, -4)
+
+P12 (coeffs should be 2,-1,0,9) = Polynomial<NT> ( deg = 3,
+>  coeff c0,c1,... = 2, -1, 0, 9)
+
+P12 is CORRECT!
+P15 (should be =X) = Polynomial<NT> ( deg = 1,
+>  coeff c0,c1,... = 0, 1)
+
+P16 (should be 0 polynomial) = Polynomial<NT> ( deg = 0,
+>  coeff c0,c1,... = 0)
+
+================================================
+STREAM I/O 
+================================================
+================================================
+COEFFICIENT MANIPULATION 
+================================================
+
+Get coefficient array of P4
+    0-th Coefficient = 1
+    1-th Coefficient = 2
+    2-th Coefficient = 3
+    3-th Coefficient = 4
+    4-th Coefficient = 5
+Get each coefficients of P4
+    0-th Coefficient = 1
+    1-th Coefficient = 2
+    2-th Coefficient = 3
+    3-th Coefficient = 4
+    4-th Coefficient = 5
+Change the 5th coefficients of P4 to 100
+    CORRECT!  Failed to change
+Change the 3th coefficients of P4 to 100
+    Here is the new P4:
+>  P4 = Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 100, 5)
+
+================================================
+Testing Resultants (N.B. Correct up to sign only!!) 
+================================================
+CORRECT ONLY UP TO SIGN!! res(P10,P11) = -13500, not 13500
+CORRECT ONLY UP TO SIGN!! res(PP,QQ) = -11, not 11
+================================================
+Testing Discriminants 
+================================================
+P30 = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = -1, -1, 1)
+
+disc(P30) = 5
+CORRECT!! disc(P30) = 5
+P31 = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = 1, -2, 1)
+
+disc(P31) = 0
+CORRECT!! disc(P31) = 0
+P32 = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = -1, -1, 2)
+
+disc(P32) = 18
+CORRECT up to extraneous leading coefficient, OK
+================================================
+Testing Polynomial GCD (see also tGCD.cpp) 
+================================================
+CORRECT!  gcd(A*B,A) = A
+CORRECT!  gcd(B,A*B) = B
+CORRECT!  D is not the gcd
+ ============ END OF TEST Polynomial<NT> =============== 
+ ================= NT = BigInt ====================== 
+./tPolyInt
+ ================ START OF TEST POLY ================ 
+================================================
+CONSTRUCTORS 
+================================================
+Zero Poly (zP) :
+>  Polynomial<NT> ( deg = -1)
+
+CORRECT: Zero() = zP
+Unity Poly (oneP) :
+>  Polynomial<NT> ( deg = 0,
+>  coeff c0,c1,... = 1)
+
+CORRECT: Unity() = oneP
+Another Unit Poly U :
+>  Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = 1, 0, 0, 0, 0, 0)
+
+P4 :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Q, copy of P4 :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+================================================
+DUMPING POLYNOMIALS (normal and Maple) 
+================================================
+cerr:>  Dumping polynomials to cerr: 
+cout:>  Dumping polynomials to cerr: 
+# >This is P4 (output to cerr): 
+# 1 + 2*x + 3*x^2
+#  + 4*x^3 + 5*x^4>  Dumping to cerr : U (unit poly):
+# 1>  Next is a maple Dump of polynomial P4:
+1 + (2)*x^1 + (3)*x^2 + (4)*x^3 + (5)*x^4
+
+ Note: mapleDump does not take any arguments...
+================================================
+EXPAND, CONTRACT, REVERSE, MakeTailCoeffNonzero, NEGATE 
+================================================
+Null extension of Q :
+>  n =-2 (should be -2) 
+>  Unchanged  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Expansion of Q :
+>  n =7 (should be 7) 
+>  New  Q :
+>  Polynomial<NT> ( deg = 7,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5, 0, 0, 0)
+>  getTrueDegree(Q) = 4 (should be 4)
+Reduce Q :
+> n = 4 (should be 4) 
+>  This should be the original Q:
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Nothing to reduce in Q :
+> n = -2 (CORRECT! n = -2) 
+>  Original P4 :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+>  Original Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+>  Reversed  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 5, 4, 3, 2, 1)
+>  2nd Reversed  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+CORRECT! reverse(reverse)=ident
+>  Negated  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = -1, -2, -3, -4, -5)
+CORRECT! negate(negate)=ident
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+================================================
+ASSIGNMENT 
+================================================
+Assignment P5=P4 :  Here is P5
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Updated P5 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -1, 2, -3, 4, -5, 6)
+
+================================================
+ARITHMETIC 
+================================================
+Addition, S = P5 + P4 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = 0, 4, 0, 8, 0, 6)
+
+Difference, S = P5 - P4 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -2, 0, -6, 0, -10, 6)
+
+Scalar Multiply of S * 10 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -20, 0, -60, 0, -100, 60)
+
+S mulXpower(0) :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -20, 0, -60, 0, -100, 60)
+
+S mulXpower(3) :
+>   Polynomial<NT> ( deg = 8,
+>  coeff c0,c1,... = 0, 0, 0, -20, 0, -60, 0, -100, 60)
+
+S mulXpower(-4) :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 0, -60, 0, -100, 60)
+
+Unary Minus, -S :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 0, 60, 0, 100, -60)
+
+Product, P = P5 * P4 :
+>   Polynomial<NT> ( deg = 9,
+>  coeff c0,c1,... = -1, 0, -2, 0, -3, 6, -2, 18, -1, 30)
+
+Power, P5^0 :
+>   Polynomial<NT> ( deg = 0,
+>  coeff c0,c1,... = 1)
+
+Power, P5^1 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -1, 2, -3, 4, -5, 6)
+
+Power, P5^2 :
+>   Polynomial<NT> ( deg = 10,
+>  coeff c0,c1,... = 1, -4, 10, -20, 35, -56, 70, -76, 73, -60, 36)
+
+Power, P5^3 :
+>   Polynomial<NT> ( deg = 15,
+>  coeff c0,c1,... = -1, 6, -21, 56, -126, 252, -441, 684, -954, 1204, -1365, 1344, -1169, 882, -540, 216)
+
+================================================
+REMAINDERS 
+================================================
+P7 :
+>   Polynomial<NT> ( deg = 7,
+>  coeff c0,c1,... = 0, 0, 0, 1, 2, 3, 4, 5)
+
+P2 :
+>   Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = 2, 0, 3)
+
+P7.pseudoRemainder(P2) :
+>   Polynomial<NT> ( deg = 1,
+>  coeff c0,c1,... = 8, 22)
+
+CORRECT! 22x+8 is pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+P26 = Polynomial<NT> ( deg = 16,
+>  coeff c0,c1,... = 1, 8, 36, 120, 330, 768, 1544, 2728, 4275, 5920, 7256, 7848, 7386, 5880, 3900, 2000, 625)
+
+p26 = Polynomial<NT> ( deg = 16,
+>  coeff c0,c1,... = 1, 8, 36, 120, 330, 768, 1544, 2728, 4275, 5920, 7256, 7848, 7386, 5880, 3900, 2000, 625)
+
+CORRECT! pseudoQuotient of (P4)^5 divided P4
+CORRECT! pseudoRemainder of (P4)^5 divided P4 is 0
+================================================
+EVALUATION 
+================================================
+Evaluation, of P5 :
+>   P5(BigFloat(0)) = -1>   P5(Expr(1)) = 3
+>   P5(Expr(2)) = 135
+>   P5(Expr("1.2")) = 8.55392
+>   P5(Expr(1.2)) = 8.55392
+>   Is P5(Expr("1.2")) == P5(Expr(1.2)) ?  No (CORRECT!)
+
+================================================
+DIFFERENTIATION 
+================================================
+Differentiate P5 zero times:
+>  P5 = Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -1, 2, -3, 4, -5, 6)
+
+Differentiation, of P5 :
+>  P5' = Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 2, -6, 12, -20, 30)
+
+Differentiate twice :
+>  P5'' = Polynomial<NT> ( deg = 3,
+>  coeff c0,c1,... = -6, 24, -60, 120)
+
+Differentiate thrice :
+>  P5''' = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = 24, -120, 360)
+
+================================================
+COMPARISON
+================================================
+Testing for Zero Polynomial: 
+>   CORRECT! zP is the zero polynomial
+Testing for Unit Polynomial: 
+>   CORRECT! oneP is the unit polynomial
+Comparing P5 and P4: 
+>   CORRECT! they are not equal 
+================================================
+Testing parsing of polynomials from string input 
+================================================
+P10 = Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, -2, 3, -4, 5)
+
+P10 is CORRECT!
+P11 = Polynomial<NT> ( deg = 3,
+>  coeff c0,c1,... = 1, 3, 3, -4)
+
+P12 (coeffs should be 2,-1,0,9) = Polynomial<NT> ( deg = 3,
+>  coeff c0,c1,... = 2, -1, 0, 9)
+
+P12 is CORRECT!
+P15 (should be =X) = Polynomial<NT> ( deg = 1,
+>  coeff c0,c1,... = 0, 1)
+
+P16 (should be 0 polynomial) = Polynomial<NT> ( deg = 0,
+>  coeff c0,c1,... = 0)
+
+================================================
+STREAM I/O 
+================================================
+================================================
+COEFFICIENT MANIPULATION 
+================================================
+
+Get coefficient array of P4
+    0-th Coefficient = 1
+    1-th Coefficient = 2
+    2-th Coefficient = 3
+    3-th Coefficient = 4
+    4-th Coefficient = 5
+Get each coefficients of P4
+    0-th Coefficient = 1
+    1-th Coefficient = 2
+    2-th Coefficient = 3
+    3-th Coefficient = 4
+    4-th Coefficient = 5
+Change the 5th coefficients of P4 to 100
+    CORRECT!  Failed to change
+Change the 3th coefficients of P4 to 100
+    Here is the new P4:
+>  P4 = Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 100, 5)
+
+================================================
+Testing Resultants (N.B. Correct up to sign only!!) 
+================================================
+NOTE : res(P10, P11) as calculated by this test is -1 but this is incorrect.
+It should have been 13500, but this calculation overflows at this precision level
+CORRECT ONLY UP TO SIGN!! res(PP,QQ) = -11, not 11
+================================================
+Testing Discriminants 
+================================================
+P30 = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = -1, -1, 1)
+
+disc(P30) = 5
+CORRECT!! disc(P30) = 5
+P31 = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = 1, -2, 1)
+
+disc(P31) = 0
+CORRECT!! disc(P31) = 0
+P32 = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = -1, -1, 2)
+
+disc(P32) = 18
+CORRECT up to extraneous leading coefficient, OK
+================================================
+Testing Polynomial GCD (see also tGCD.cpp) 
+================================================
+CORRECT!  gcd(A*B,A) = A
+CORRECT!  gcd(B,A*B) = B
+CORRECT!  D is not the gcd
+ ============ END OF TEST Polynomial<NT> =============== 
+ ================= NT = int ========================= 
+./tPolyRat
+ ================ START OF TEST POLY ================ 
+================================================
+CONSTRUCTORS 
+================================================
+Zero Poly (zP) :
+>  Polynomial<NT> ( deg = -1)
+
+CORRECT: Zero() = zP
+Unity Poly (oneP) :
+>  Polynomial<NT> ( deg = 0,
+>  coeff c0,c1,... = 1)
+
+CORRECT: Unity() = oneP
+Another Unit Poly U :
+>  Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = 1, 0, 0, 0, 0, 0)
+
+P4 :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Q, copy of P4 :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+================================================
+DUMPING POLYNOMIALS (normal and Maple) 
+================================================
+cerr:>  Dumping polynomials to cerr: 
+cout:>  Dumping polynomials to cerr: 
+# >This is P4 (output to cerr): 
+# 1 + 2*x + 3*x^2
+#  + 4*x^3 + 5*x^4>  Dumping to cerr : U (unit poly):
+# 1>  Next is a maple Dump of polynomial P4:
+1 + (2)*x^1 + (3)*x^2 + (4)*x^3 + (5)*x^4
+
+ Note: mapleDump does not take any arguments...
+================================================
+EXPAND, CONTRACT, REVERSE, MakeTailCoeffNonzero, NEGATE 
+================================================
+Null extension of Q :
+>  n =-2 (should be -2) 
+>  Unchanged  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Expansion of Q :
+>  n =7 (should be 7) 
+>  New  Q :
+>  Polynomial<NT> ( deg = 7,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5, 0, 0, 0)
+>  getTrueDegree(Q) = 4 (should be 4)
+Reduce Q :
+> n = 4 (should be 4) 
+>  This should be the original Q:
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Nothing to reduce in Q :
+> n = -2 (CORRECT! n = -2) 
+>  Original P4 :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+>  Original Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+>  Reversed  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 5, 4, 3, 2, 1)
+>  2nd Reversed  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+CORRECT! reverse(reverse)=ident
+>  Negated  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = -1, -2, -3, -4, -5)
+CORRECT! negate(negate)=ident
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+================================================
+ASSIGNMENT 
+================================================
+Assignment P5=P4 :  Here is P5
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Updated P5 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -1, 2, -3, 4, -5, 6)
+
+================================================
+ARITHMETIC 
+================================================
+Addition, S = P5 + P4 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = 0, 4, 0, 8, 0, 6)
+
+Difference, S = P5 - P4 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -2, 0, -6, 0, -10, 6)
+
+Scalar Multiply of S * 10 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -20, 0, -60, 0, -100, 60)
+
+S mulXpower(0) :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -20, 0, -60, 0, -100, 60)
+
+S mulXpower(3) :
+>   Polynomial<NT> ( deg = 8,
+>  coeff c0,c1,... = 0, 0, 0, -20, 0, -60, 0, -100, 60)
+
+S mulXpower(-4) :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 0, -60, 0, -100, 60)
+
+Unary Minus, -S :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 0, 60, 0, 100, -60)
+
+Product, P = P5 * P4 :
+>   Polynomial<NT> ( deg = 9,
+>  coeff c0,c1,... = -1, 0, -2, 0, -3, 6, -2, 18, -1, 30)
+
+Power, P5^0 :
+>   Polynomial<NT> ( deg = 0,
+>  coeff c0,c1,... = 1)
+
+Power, P5^1 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -1, 2, -3, 4, -5, 6)
+
+Power, P5^2 :
+>   Polynomial<NT> ( deg = 10,
+>  coeff c0,c1,... = 1, -4, 10, -20, 35, -56, 70, -76, 73, -60, 36)
+
+Power, P5^3 :
+>   Polynomial<NT> ( deg = 15,
+>  coeff c0,c1,... = -1, 6, -21, 56, -126, 252, -441, 684, -954, 1204, -1365, 1344, -1169, 882, -540, 216)
+
+================================================
+REMAINDERS 
+================================================
+P7 :
+>   Polynomial<NT> ( deg = 7,
+>  coeff c0,c1,... = 0, 0, 0, 1, 2, 3, 4, 5)
+
+P2 :
+>   Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = 2, 0, 3)
+
+P7.pseudoRemainder(P2) :
+>   Polynomial<NT> ( deg = 1,
+>  coeff c0,c1,... = 8, 22)
+
+CORRECT! 22x+8 is pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+P26 = Polynomial<NT> ( deg = 16,
+>  coeff c0,c1,... = 1, 8, 36, 120, 330, 768, 1544, 2728, 4275, 5920, 7256, 7848, 7386, 5880, 3900, 2000, 625)
+
+p26 = Polynomial<NT> ( deg = 16,
+>  coeff c0,c1,... = 1, 8, 36, 120, 330, 768, 1544, 2728, 4275, 5920, 7256, 7848, 7386, 5880, 3900, 2000, 625)
+
+CORRECT! pseudoQuotient of (P4)^5 divided P4
+CORRECT! pseudoRemainder of (P4)^5 divided P4 is 0
+================================================
+EVALUATION 
+================================================
+Evaluation, of P5 :
+>   P5(BigFloat(0)) = -1>   P5(Expr(1)) = 3
+>   P5(Expr(2)) = 135
+>   P5(Expr("1.2")) = 8.55392
+>   P5(Expr(1.2)) = 8.55392
+>   Is P5(Expr("1.2")) == P5(Expr(1.2)) ?  No (CORRECT!)
+
+================================================
+DIFFERENTIATION 
+================================================
+Differentiate P5 zero times:
+>  P5 = Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -1, 2, -3, 4, -5, 6)
+
+Differentiation, of P5 :
+>  P5' = Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 2, -6, 12, -20, 30)
+
+Differentiate twice :
+>  P5'' = Polynomial<NT> ( deg = 3,
+>  coeff c0,c1,... = -6, 24, -60, 120)
+
+Differentiate thrice :
+>  P5''' = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = 24, -120, 360)
+
+================================================
+COMPARISON
+================================================
+Testing for Zero Polynomial: 
+>   CORRECT! zP is the zero polynomial
+Testing for Unit Polynomial: 
+>   CORRECT! oneP is the unit polynomial
+Comparing P5 and P4: 
+>   CORRECT! they are not equal 
+================================================
+Testing parsing of polynomials from string input 
+================================================
+P10 = Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, -2, 3, -4, 5)
+
+P10 is CORRECT!
+P11 = Polynomial<NT> ( deg = 3,
+>  coeff c0,c1,... = 1, 3, 3, -4)
+
+P12 (coeffs should be 2,-1,0,9) = Polynomial<NT> ( deg = 3,
+>  coeff c0,c1,... = 2, -1, 0, 9)
+
+P12 is CORRECT!
+P14 = Polynomial<NT> ( deg = 3,
+>  coeff c0,c1,... = 1, -1, 3/4, -5/6)
+
+P14 is CORRECT!
+P15 (should be =X) = Polynomial<NT> ( deg = 1,
+>  coeff c0,c1,... = 0, 1)
+
+P16 (should be 0 polynomial) = Polynomial<NT> ( deg = 0,
+>  coeff c0,c1,... = 0)
+
+================================================
+STREAM I/O 
+================================================
+================================================
+COEFFICIENT MANIPULATION 
+================================================
+
+Get coefficient array of P4
+    0-th Coefficient = 1
+    1-th Coefficient = 2
+    2-th Coefficient = 3
+    3-th Coefficient = 4
+    4-th Coefficient = 5
+Get each coefficients of P4
+    0-th Coefficient = 1
+    1-th Coefficient = 2
+    2-th Coefficient = 3
+    3-th Coefficient = 4
+    4-th Coefficient = 5
+Change the 5th coefficients of P4 to 100
+    CORRECT!  Failed to change
+Change the 3th coefficients of P4 to 100
+    Here is the new P4:
+>  P4 = Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 100, 5)
+
+================================================
+Testing Resultants (N.B. Correct up to sign only!!) 
+================================================
+CORRECT ONLY UP TO SIGN!! res(P10,P11) = -13500, not 13500
+CORRECT ONLY UP TO SIGN!! res(PP,QQ) = -11, not 11
+================================================
+Testing Discriminants 
+================================================
+P30 = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = -1, -1, 1)
+
+disc(P30) = 5
+CORRECT!! disc(P30) = 5
+P31 = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = 1, -2, 1)
+
+disc(P31) = 0
+CORRECT!! disc(P31) = 0
+P32 = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = -1, -1, 2)
+
+disc(P32) = 18
+CORRECT up to extraneous leading coefficient, OK
+================================================
+Testing Polynomial GCD (see also tGCD.cpp) 
+================================================
+CORRECT!  gcd(A*B,A) = A
+CORRECT!  gcd(B,A*B) = B
+CORRECT!  D is not the gcd
+ ============ END OF TEST Polynomial<NT> =============== 
+ ================= NT = BigRat ====================== 
+./tPolyBF
+ ================ START OF TEST POLY ================ 
+================================================
+CONSTRUCTORS 
+================================================
+Zero Poly (zP) :
+>  Polynomial<NT> ( deg = -1)
+
+CORRECT: Zero() = zP
+Unity Poly (oneP) :
+>  Polynomial<NT> ( deg = 0,
+>  coeff c0,c1,... = 1)
+
+CORRECT: Unity() = oneP
+Another Unit Poly U :
+>  Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = 1, 0, 0, 0, 0, 0)
+
+P4 :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Q, copy of P4 :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+================================================
+DUMPING POLYNOMIALS (normal and Maple) 
+================================================
+cerr:>  Dumping polynomials to cerr: 
+cout:>  Dumping polynomials to cerr: 
+# >This is P4 (output to cerr): 
+# 1 + 2*x + 3*x^2
+#  + 4*x^3 + 5*x^4>  Dumping to cerr : U (unit poly):
+# 1>  Next is a maple Dump of polynomial P4:
+1 + (2)*x^1 + (3)*x^2 + (4)*x^3 + (5)*x^4
+
+ Note: mapleDump does not take any arguments...
+================================================
+EXPAND, CONTRACT, REVERSE, MakeTailCoeffNonzero, NEGATE 
+================================================
+Null extension of Q :
+>  n =-2 (should be -2) 
+>  Unchanged  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Expansion of Q :
+>  n =7 (should be 7) 
+>  New  Q :
+>  Polynomial<NT> ( deg = 7,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5, 0, 0, 0)
+>  getTrueDegree(Q) = 4 (should be 4)
+Reduce Q :
+> n = 4 (should be 4) 
+>  This should be the original Q:
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Nothing to reduce in Q :
+> n = -2 (CORRECT! n = -2) 
+>  Original P4 :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+>  Original Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+>  Reversed  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 5, 4, 3, 2, 1)
+>  2nd Reversed  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+CORRECT! reverse(reverse)=ident
+>  Negated  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = -1, -2, -3, -4, -5)
+CORRECT! negate(negate)=ident
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+================================================
+ASSIGNMENT 
+================================================
+Assignment P5=P4 :  Here is P5
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Updated P5 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -1, 2, -3, 4, -5, 6)
+
+================================================
+ARITHMETIC 
+================================================
+Addition, S = P5 + P4 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = 0, 4, 0, 8, 0, 6)
+
+Difference, S = P5 - P4 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -2, 0, -6, 0, -10, 6)
+
+Scalar Multiply of S * 10 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -20, 0, -60, 0, -100, 60)
+
+S mulXpower(0) :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -20, 0, -60, 0, -100, 60)
+
+S mulXpower(3) :
+>   Polynomial<NT> ( deg = 8,
+>  coeff c0,c1,... = 0, 0, 0, -20, 0, -60, 0, -100, 60)
+
+S mulXpower(-4) :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 0, -60, 0, -100, 60)
+
+Unary Minus, -S :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 0, 60, 0, 100, -60)
+
+Product, P = P5 * P4 :
+>   Polynomial<NT> ( deg = 9,
+>  coeff c0,c1,... = -1, 0, -2, 0, -3, 6, -2, 18, -1, 30)
+
+Power, P5^0 :
+>   Polynomial<NT> ( deg = 0,
+>  coeff c0,c1,... = 1)
+
+Power, P5^1 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -1, 2, -3, 4, -5, 6)
+
+Power, P5^2 :
+>   Polynomial<NT> ( deg = 10,
+>  coeff c0,c1,... = 1, -4, 10, -20, 35, -56, 70, -76, 73, -60, 36)
+
+Power, P5^3 :
+>   Polynomial<NT> ( deg = 15,
+>  coeff c0,c1,... = -1, 6, -21, 56, -126, 252, -441, 684, -954, 1204, -1365, 1344, -1169, 882, -540, 216)
+
+================================================
+REMAINDERS 
+================================================
+P7 :
+>   Polynomial<NT> ( deg = 7,
+>  coeff c0,c1,... = 0, 0, 0, 1, 2, 3, 4, 5)
+
+P2 :
+>   Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = 2, 0, 3)
+
+P7.pseudoRemainder(P2) :
+>   Polynomial<NT> ( deg = 1,
+>  coeff c0,c1,... = 8, 22)
+
+CORRECT! 22x+8 is pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+P26 = Polynomial<NT> ( deg = 16,
+>  coeff c0,c1,... = 1, 8, 36, 120, 330, 768, 1544, 2728, 4275, 5920, 7256, 7848, 7386, 5880, 3900, 2000, 625)
+
+p26 = Polynomial<NT> ( deg = 16,
+>  coeff c0,c1,... = 1, 8, 36, 120, 330, 768, 1544, 2728, 4275, 5920, 7256, 7848, 7386, 5880, 3900, 2000, 625)
+
+CORRECT! pseudoQuotient of (P4)^5 divided P4
+CORRECT! pseudoRemainder of (P4)^5 divided P4 is 0
+================================================
+EVALUATION 
+================================================
+Evaluation, of P5 :
+>   P5(BigFloat(0)) = -1>   P5(Expr(1)) = 3
+>   P5(Expr(2)) = 135
+>   P5(Expr("1.2")) = 8.55392
+>   P5(Expr(1.2)) = 8.55392
+>   Is P5(Expr("1.2")) == P5(Expr(1.2)) ?  No (CORRECT!)
+
+================================================
+DIFFERENTIATION 
+================================================
+Differentiate P5 zero times:
+>  P5 = Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -1, 2, -3, 4, -5, 6)
+
+Differentiation, of P5 :
+>  P5' = Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 2, -6, 12, -20, 30)
+
+Differentiate twice :
+>  P5'' = Polynomial<NT> ( deg = 3,
+>  coeff c0,c1,... = -6, 24, -60, 120)
+
+Differentiate thrice :
+>  P5''' = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = 24, -120, 360)
+
+================================================
+COMPARISON
+================================================
+Testing for Zero Polynomial: 
+>   CORRECT! zP is the zero polynomial
+Testing for Unit Polynomial: 
+>   CORRECT! oneP is the unit polynomial
+Comparing P5 and P4: 
+>   CORRECT! they are not equal 
+================================================
+Testing parsing of polynomials from string input 
+================================================
+P10 = Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, -2, 3, -4, 5)
+
+P10 is CORRECT!
+P11 = Polynomial<NT> ( deg = 3,
+>  coeff c0,c1,... = 1, 3, 3, -4)
+
+P12 (coeffs should be 2,-1,0,9) = Polynomial<NT> ( deg = 3,
+>  coeff c0,c1,... = 2, -1, 0, 9)
+
+P12 is CORRECT!
+P13 = Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1.1, -2.2, 3.3, -4.4, 5)
+
+P13 is CORRECT!
+P15 (should be =X) = Polynomial<NT> ( deg = 1,
+>  coeff c0,c1,... = 0, 1)
+
+P16 (should be 0 polynomial) = Polynomial<NT> ( deg = 0,
+>  coeff c0,c1,... = 0)
+
+================================================
+STREAM I/O 
+================================================
+================================================
+COEFFICIENT MANIPULATION 
+================================================
+
+Get coefficient array of P4
+    0-th Coefficient = 1
+    1-th Coefficient = 2
+    2-th Coefficient = 3
+    3-th Coefficient = 4
+    4-th Coefficient = 5
+Get each coefficients of P4
+    0-th Coefficient = 1
+    1-th Coefficient = 2
+    2-th Coefficient = 3
+    3-th Coefficient = 4
+    4-th Coefficient = 5
+Change the 5th coefficients of P4 to 100
+    CORRECT!  Failed to change
+Change the 3th coefficients of P4 to 100
+    Here is the new P4:
+>  P4 = Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 100, 5)
+
+================================================
+Testing Resultants (N.B. Correct up to sign only!!) 
+================================================
+CORRECT ONLY UP TO SIGN!! res(P10,P11) = -13500, not 13500
+CORRECT ONLY UP TO SIGN!! res(PP,QQ) = -11, not 11
+================================================
+Testing Discriminants 
+================================================
+P30 = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = -1, -1, 1)
+
+disc(P30) = 5
+CORRECT!! disc(P30) = 5
+P31 = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = 1, -2, 1)
+
+disc(P31) = 0
+CORRECT!! disc(P31) = 0
+P32 = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = -1, -1, 2)
+
+disc(P32) = 18
+CORRECT up to extraneous leading coefficient, OK
+================================================
+Testing Polynomial GCD (see also tGCD.cpp) 
+================================================
+CORRECT!  gcd(A*B,A) = A
+CORRECT!  gcd(B,A*B) = B
+CORRECT!  D is not the gcd
+ ============ END OF TEST Polynomial<NT> =============== 
+ ================= NT = BigFloat ======================== 
+./tPolyExp
+ ================ START OF TEST POLY ================ 
+================================================
+CONSTRUCTORS 
+================================================
+Zero Poly (zP) :
+>  Polynomial<NT> ( deg = -1)
+
+CORRECT: Zero() = zP
+Unity Poly (oneP) :
+>  Polynomial<NT> ( deg = 0,
+>  coeff c0,c1,... = 1)
+
+CORRECT: Unity() = oneP
+Another Unit Poly U :
+>  Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = 1, 0, 0, 0, 0, 0)
+
+P4 :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Q, copy of P4 :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+================================================
+DUMPING POLYNOMIALS (normal and Maple) 
+================================================
+cerr:>  Dumping polynomials to cerr: 
+cout:>  Dumping polynomials to cerr: 
+# >This is P4 (output to cerr): 
+# 1 + 2*x + 3*x^2
+#  + 4*x^3 + 5*x^4>  Dumping to cerr : U (unit poly):
+# 1>  Next is a maple Dump of polynomial P4:
+1 + (2)*x^1 + (3)*x^2 + (4)*x^3 + (5)*x^4
+
+ Note: mapleDump does not take any arguments...
+================================================
+EXPAND, CONTRACT, REVERSE, MakeTailCoeffNonzero, NEGATE 
+================================================
+Null extension of Q :
+>  n =-2 (should be -2) 
+>  Unchanged  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Expansion of Q :
+>  n =7 (should be 7) 
+>  New  Q :
+>  Polynomial<NT> ( deg = 7,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5, 0, 0, 0)
+>  getTrueDegree(Q) = 4 (should be 4)
+Reduce Q :
+> n = 4 (should be 4) 
+>  This should be the original Q:
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Nothing to reduce in Q :
+> n = -2 (CORRECT! n = -2) 
+>  Original P4 :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+>  Original Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+>  Reversed  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 5, 4, 3, 2, 1)
+>  2nd Reversed  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+CORRECT! reverse(reverse)=ident
+>  Negated  Q :
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = -1, -2, -3, -4, -5)
+CORRECT! negate(negate)=ident
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+CORRECT! makeTailCoeff is correct
+================================================
+ASSIGNMENT 
+================================================
+Assignment P5=P4 :  Here is P5
+>  Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+Updated P5 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -1, 2, -3, 4, -5, 6)
+
+================================================
+ARITHMETIC 
+================================================
+Addition, S = P5 + P4 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = 0, 4, 0, 8, 0, 6)
+
+Difference, S = P5 - P4 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -2, 0, -6, 0, -10, 6)
+
+Scalar Multiply of S * 10 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -20, 0, -60, 0, -100, 60)
+
+S mulXpower(0) :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -20, 0, -60, 0, -100, 60)
+
+S mulXpower(3) :
+>   Polynomial<NT> ( deg = 8,
+>  coeff c0,c1,... = 0, 0, 0, -20, 0, -60, 0, -100, 60)
+
+S mulXpower(-4) :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 0, -60, 0, -100, 60)
+
+Unary Minus, -S :
+>   Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 0, 60, 0, 100, -60)
+
+Product, P = P5 * P4 :
+>   Polynomial<NT> ( deg = 9,
+>  coeff c0,c1,... = -1, 0, -2, 0, -3, 6, -2, 18, -1, 30)
+
+Power, P5^0 :
+>   Polynomial<NT> ( deg = 0,
+>  coeff c0,c1,... = 1)
+
+Power, P5^1 :
+>   Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -1, 2, -3, 4, -5, 6)
+
+Power, P5^2 :
+>   Polynomial<NT> ( deg = 10,
+>  coeff c0,c1,... = 1, -4, 10, -20, 35, -56, 70, -76, 73, -60, 36)
+
+Power, P5^3 :
+>   Polynomial<NT> ( deg = 15,
+>  coeff c0,c1,... = -1, 6, -21, 56, -126, 252, -441, 684, -954, 1204, -1365, 1344, -1169, 882, -540, 216)
+
+================================================
+REMAINDERS 
+================================================
+P7 :
+>   Polynomial<NT> ( deg = 7,
+>  coeff c0,c1,... = 0, 0, 0, 1, 2, 3, 4, 5)
+
+P2 :
+>   Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = 2, 0, 3)
+
+P7.pseudoRemainder(P2) :
+>   Polynomial<NT> ( deg = 1,
+>  coeff c0,c1,... = 8, 22)
+
+CORRECT! 22x+8 is pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+CORRECT! (C*A) == (Quo*B + Rem) in pseudoRemainder
+P26 = Polynomial<NT> ( deg = 16,
+>  coeff c0,c1,... = 1, 8, 36, 120, 330, 768, 1544, 2728, 4275, 5920, 7256, 7848, 7386, 5880, 3900, 2000, 625)
+
+p26 = Polynomial<NT> ( deg = 16,
+>  coeff c0,c1,... = 1, 8, 36, 120, 330, 768, 1544, 2728, 4275, 5920, 7256, 7848, 7386, 5880, 3900, 2000, 625)
+
+CORRECT! pseudoQuotient of (P4)^5 divided P4
+CORRECT! pseudoRemainder of (P4)^5 divided P4 is 0
+================================================
+EVALUATION 
+================================================
+Evaluation, of P5 :
+>   P5(BigFloat(0)) = -1>   P5(Expr(1)) = 3
+>   P5(Expr(2)) = 135
+>   P5(Expr("1.2")) = 8.55392
+>   P5(Expr(1.2)) = 8.55392
+>   Is P5(Expr("1.2")) == P5(Expr(1.2)) ?  No (CORRECT!)
+
+================================================
+DIFFERENTIATION 
+================================================
+Differentiate P5 zero times:
+>  P5 = Polynomial<NT> ( deg = 5,
+>  coeff c0,c1,... = -1, 2, -3, 4, -5, 6)
+
+Differentiation, of P5 :
+>  P5' = Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 2, -6, 12, -20, 30)
+
+Differentiate twice :
+>  P5'' = Polynomial<NT> ( deg = 3,
+>  coeff c0,c1,... = -6, 24, -60, 120)
+
+Differentiate thrice :
+>  P5''' = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = 24, -120, 360)
+
+================================================
+COMPARISON
+================================================
+Testing for Zero Polynomial: 
+>   CORRECT! zP is the zero polynomial
+Testing for Unit Polynomial: 
+>   CORRECT! oneP is the unit polynomial
+Comparing P5 and P4: 
+>   CORRECT! they are not equal 
+================================================
+Testing parsing of polynomials from string input 
+================================================
+P10 = Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, -2, 3, -4, 5)
+
+P10 is CORRECT!
+P11 = Polynomial<NT> ( deg = 3,
+>  coeff c0,c1,... = 1, 3, 3, -4)
+
+P12 (coeffs should be 2,-1,0,9) = Polynomial<NT> ( deg = 3,
+>  coeff c0,c1,... = 2, -1, 0, 9)
+
+P12 is CORRECT!
+P15 (should be =X) = Polynomial<NT> ( deg = 1,
+>  coeff c0,c1,... = 0, 1)
+
+P16 (should be 0 polynomial) = Polynomial<NT> ( deg = 0,
+>  coeff c0,c1,... = 0)
+
+================================================
+STREAM I/O 
+================================================
+================================================
+COEFFICIENT MANIPULATION 
+================================================
+
+Get coefficient array of P4
+    0-th Coefficient = 1
+    1-th Coefficient = 2
+    2-th Coefficient = 3
+    3-th Coefficient = 4
+    4-th Coefficient = 5
+Get each coefficients of P4
+    0-th Coefficient = 1
+    1-th Coefficient = 2
+    2-th Coefficient = 3
+    3-th Coefficient = 4
+    4-th Coefficient = 5
+Change the 5th coefficients of P4 to 100
+    CORRECT!  Failed to change
+Change the 3th coefficients of P4 to 100
+    Here is the new P4:
+>  P4 = Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 100, 5)
+
+================================================
+Testing Resultants (N.B. Correct up to sign only!!) 
+================================================
+CORRECT ONLY UP TO SIGN!! res(P10,P11) = -13500, not 13500
+CORRECT ONLY UP TO SIGN!! res(PP,QQ) = -11, not 11
+================================================
+Testing Discriminants 
+================================================
+P30 = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = -1, -1, 1)
+
+disc(P30) = 5
+CORRECT!! disc(P30) = 5
+P31 = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = 1, -2, 1)
+
+disc(P31) = 0
+CORRECT!! disc(P31) = 0
+P32 = Polynomial<NT> ( deg = 2,
+>  coeff c0,c1,... = -1, -1, 2)
+
+disc(P32) = 18
+CORRECT up to extraneous leading coefficient, OK
+================================================
+Testing Polynomial GCD (see also tGCD.cpp) 
+================================================
+CORRECT!  gcd(A*B,A) = A
+CORRECT!  gcd(B,A*B) = B
+CORRECT!  D is not the gcd
+ ============ END OF TEST Polynomial<NT> =============== 
+ ================= NT = Expr ======================== 
+
+Inside subdirectory  sumOfSqrts : =-=-=-=-=-=-=-=->>>
+./graham
+Graham's Example (comparing 2 sums of 10 square roots
+ e : 9000.4499835688397
+ f : 9000.4499835688397
+ e == f ?  no (CORRECT)
+ e - f = .0000000000000284217094304040074348
+
+Inside subdirectory  testIdent : =-=-=-=-=-=-=-=->>>
+./testIdent
+Finished First Identity Test 
+Random test on (a,b,c)=(16807, 2.82475e+8, 1.62265e+9)
+Finished Random Identity Test 
+>> To further exercise the program, rerun testIdenty
+by giving it some (any) argument e.g. testIdent 1 
+
+Inside subdirectory  testIO : =-=-=-=-=-=-=-=->>>
+./testIO
+OUTPUT FOR THE Expr VALUE 1.0/3.0
+  computed to relative precision 120: 
+  (1) Output In Positional Notation
+    Default cout precision (=8): 0.33333333
+    Cout precision 12:      0.333333333333
+    Cout precision 36:      0.333333333333333333333333333333333333
+    Cout precision 37:      0.333333333333333333333333333333333333
+    Cout precision 38:      0.333333333333333333333333333333333333
+    Cout precision 39:      0.333333333333333333333333333333333333
+    Cout precision 40:      0.333333333333333333333333333333333333
+    Cout precision 41:      0.333333333333333333333333333333333333
+    Cout precision 42:      0.333333333333333333333333333333333333
+    Cout precision 43:      0.333333333333333333333333333333333333
+    Cout precision 44:      0.333333333333333333333333333333333333
+    Cout precision 46:      0.333333333333333333333333333333333333
+    Cout precision 48:      0.333333333333333333333333333333333333
+  N.B. 120 bits = 36.123 digits.  Above, we have asked to see 
+  more and more bits of the computed value.  The output will indeed 
+  show more and more bits, until all significant bits are used up.
+  This should happen AFTER 37 digits but hopefully before 48 digits
+  (2) Output In Scientific Notation
+    Default Cout precision:3.333333333e-1
+    Cout precision 12:  3.33333333333e-1
+    Cout precision 24:  3.33333333333333333333333e-1
+    Cout precision 25:  3.333333333333333333333333e-1
+    Cout precision 36:  3.33333333333333333333333333333333333e-1
+    Cout precision 48:  3.33333333333333333333333333333333333e-1
+  (3) Default Print Digits (a Core library parameter)
+Output precision: 6, precision [r=67, a=INFTY]
+    one_third = 0.333333
+
+Output precision: 20, precision [r=67, a=INFTY]
+    one_third = 0.33333333333333333333
+
+The precision is not sufficient for 30 decimal digits!
+Output precision: 30, precision [r=67, a=INFTY]
+one_third = 0.333333333333333333333333333333
+
+Set the precision to [r=100, a=INFTY] to get it right: 
+Output precision: 30, precision [r=100, a=INFTY]
+one_third = 0.333333333333333333333333333333
+
+Precisions: [54, INFTY] (simulating machine double precision) 
+           This print out 16 digits...
+ e0 ( 0.01234                   ) : .01234
+ e1 ( 0.00000000012345          ) : .00000000012345
+ e2 ( 0.0000000001234567890123  ) : .000000000123456789
+ e3 ( 1.2                       ) : 1.2
+ e4 ( 123.456                   ) : 123.456
+ e5 ( 123456789                 ) : 123456789
+ e6 ( 123456789.0123456         ) : 123456789
+ e7 ( 1234567890123.456         ) : 1234567890000
+ e8 ( 1234567890123456.0        ) : 1234567890000000
+ e9 ( 0.023                     ) : .023
+ e10 ( 123456789.50001          ) : 123456789.5
+ e11 ( 123456789.49999          ) : 123456789.5
+ e12 ( 199999999.50001          ) : 199999999.5
+ e13 ( 999999999.50001          ) : 999999999.5
+ ne0 ( -.01234                  ) : -.01234
+ ne1 ( -0.00000000012345        ) : -.00000000012345
+ ne2 ( -0.0000000001234567890123) : -.000000000123456789
+ ne3 ( -1.2                     ) : -1.2
+ ne4 ( -123.456                 ) : -123.456
+ ne5 ( -123456789               ) : -123456789
+ ne6 ( -123456789.0123456       ) : -123456789
+ ne7 ( -1234567890123.456       ) : -1234567890000
+ ne8 ( -1234567890123456.0      ) : -1234567890000000
+ ne9 ( -0.023                   ) : -.023
+
+sqrt(2/3) = 0.8164965809
+
+The literal double constant is not always exact:
+construct from double constant - (0.023): .023
+construct from string - (0.023): .023
+construct from double constant - (1234.567e-5): .01234567
+construct from string - (1234.567e-5): .01234567
+100010/100010 = 1
+r1 = 0.123456789
+r2 = 0.1234567890123456789, read in exactly
+r3 = 0.12, read in with precision 10^{-9}
+q = 0.3333333333, in 10 digits
+q = 3.3333333333333333334e-1, in scientific notation.
+q = 0.33333333333333333334, in positional notation.
+s1 = 1.234e-1; in machine precision, s1 =0.1234
+s2 = "1.234e-1"; with defInputDigits = 20, , s2 =0.1234
+a1 = 123/456; in machine precision, a1 =0
+a2 = "123/456"; with defInputDigits = 20, a2 = 0.2697368421052631579
+a3 = "123/456"; with defInputDigits = INFTY, a3 = 0.2697368421052631579
+b1 = "0.009"; with defInputDigits = INFTY, b1 = .009
+   NOTE: b1 is to test that zeros after the decimal point and before the MSB is correctly treated
+b2 = "001.234"; with defInputDigits = INFTY, b2 = 1.234
+   NOTE: b2 is to test that zeros before the decimal point AND before the MSB is correctly treated
+b3 = "010.0234"; with defInputDigits = INFTY, b3 = 10.0234
+   NOTE: b3 is to test that zeros between the MSB and after the decimal point is correctly treated
+b4 = "-010.0234"; with defInputDigits = INFTY, b4 = -10.0234
+   NOTE: b4 is to test negative signs is correctly treated
+./testMpfr 0
+====== TEST ONE: cout precision
+-----1234 group
+-0.01234
+0.001234
+-0.0001234
+1.234e-05
+1.234e-06
+-----123456 group
+-0.0123456
+0.00123456
+-0.000123456
+1.23456e-05
+-----small 123456789 group
+-0.123457
+0.0123457
+-0.00123457
+0.000123457
+-1.23457e-05
+-----large 123456789 group
+123456789
+1.23457e+08
+-1.23457e+08
+-1.23456e+07
+1.23456e+07
+-----large 123456789 integers
+1234567890
+2147300000
+====== TEST TWO: rational expressions
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string is correct
+====== TEST THREE: sqrt expressions
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string is correct
+====== TEST FOUR: nested sqrt
+CORRECT!!! Core output string equals answer string
+====== TEST FIVE: trigonometric sine
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string equals answer string
+====== TEST SIX: trigonometric cosine
+CORRECT!!! Core output string is correct
+====== TEST SEVEN: trigonometric tangent
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string equals answer string
+====== TEST EIGHT: trigonometric arcsine
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string equals answer string
+CORRECT!!! Core output string equals answer string
+====== TEST NINE: trigonometric arccosine
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string equals answer string
+====== TEST TEN: trigonometric arctangent
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string equals answer string
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string equals answer string
+====== TEST ELEVEN: natural logarithm 
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string equals answer string
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string equals answer string
+====== TEST TWELVE: exponentiation 
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string equals answer string
+====== TEST THIRTEEN: constant Pi 
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string equals answer string
+====== TEST FOURTEEN: constant e 
+CORRECT!!! Core output string is correct
+CORRECT!!! Core output string equals answer string
+====== TEST FIFTEEN: function and its inverse 
+ NOT YET DONE 
+./testSqrt 997 10 
+tested expression 31.5753
+ =================
+ SUMMARY:
+    Maximum relative err (RelErr) = 1.0944e-16 achieved at sqrt(997)
+    Allowed relative err (ErrBound) = 8.88178e-16
+    CORRECT!  RelErr <= ErrBound
+tested expression 31.5911
+ =================
+ SUMMARY:
+    Maximum relative err (RelErr) = 1.0944e-16 achieved at sqrt(997)
+    Allowed relative err (ErrBound) = 8.88178e-16
+    CORRECT!  RelErr <= ErrBound
+tested expression 31.607
+ =================
+ SUMMARY:
+    Maximum relative err (RelErr) = 1.0944e-16 achieved at sqrt(997)
+    Allowed relative err (ErrBound) = 8.88178e-16
+    CORRECT!  RelErr <= ErrBound
+tested expression 31.6228
+ =================
+ SUMMARY:
+    Maximum relative err (RelErr) = 1.0944e-16 achieved at sqrt(997)
+    Allowed relative err (ErrBound) = 8.88178e-16
+    CORRECT!  RelErr <= ErrBound
+tested expression 31.6386
+ =================
+ SUMMARY:
+    Maximum relative err (RelErr) = 1.0944e-16 achieved at sqrt(997)
+    Allowed relative err (ErrBound) = 8.88178e-16
+    CORRECT!  RelErr <= ErrBound
+tested expression 31.6544
+ =================
+ SUMMARY:
+    Maximum relative err (RelErr) = 1.0944e-16 achieved at sqrt(997)
+    Allowed relative err (ErrBound) = 8.88178e-16
+    CORRECT!  RelErr <= ErrBound
+tested expression 31.6702
+ =================
+ SUMMARY:
+    Maximum relative err (RelErr) = 1.0944e-16 achieved at sqrt(997)
+    Allowed relative err (ErrBound) = 8.88178e-16
+    CORRECT!  RelErr <= ErrBound
+tested expression 31.686
+ =================
+ SUMMARY:
+    Maximum relative err (RelErr) = 1.0944e-16 achieved at sqrt(997)
+    Allowed relative err (ErrBound) = 8.88178e-16
+    CORRECT!  RelErr <= ErrBound
+tested expression 31.7017
+ =================
+ SUMMARY:
+    Maximum relative err (RelErr) = 1.0944e-16 achieved at sqrt(997)
+    Allowed relative err (ErrBound) = 8.88178e-16
+    CORRECT!  RelErr <= ErrBound
+tested expression 31.7175
+ =================
+ SUMMARY:
+    Maximum relative err (RelErr) = 1.0944e-16 achieved at sqrt(997)
+    Allowed relative err (ErrBound) = 8.88178e-16
+    CORRECT!  RelErr <= ErrBound
+./testCompatible 
+CORRECT getUncertainty
+CORRECT getDigits
+CORRECT!!! isCompatible(1.23400e-5, 12.3399e-6) = 1
+CORRECT!!! isCompatible(1.23400e-5, 1.23398e-5) = 0
+CORRECT!!! isCompatible(1.23400e-5, 1.23397e-5) = 0
+CORRECT!!! isCompatible(+12, 13) = 1
+CORRECT!!! isCompatible(-12, 13) = 0
+CORRECT!!! isCompatible(-12, -15) = 0
+CORRECT!!! isCompatible(-12, -13) = 1
+CORRECT!!! isCompatible(+00012.5, 013) = 1
+CORRECT!!! isCompatible(0, 1) = 1
+CORRECT!!! isCompatible(0.0, 0.12) = 0
+CORRECT!!! isCompatible(0.9999995000000416666652777778025793648037918892129, 0.99999950000004166666527777780257936480379188921289614586985) = 1
+./testCompatibleNew
+==================
+Test of compatible
+==================
+Answer = 6
+CORRECT! 
+123.456 and 
+123.45555 are compatible to 6 positions.
+CORRECT! 
+123.456 and 
+123.45555 are compatible.
+=======================================================
+Answer = 6
+CORRECT! 
+123.45555 and 
+123.456 are compatible to 6 positions.
+CORRECT! 
+123.45555 and 
+123.456 are compatible.
+=======================================================
+Answer = 5
+CORRECT! 
+123.459999999 and 
+123.456000000 are compatible to 5 positions.
+CORRECT! 
+123.459999999 and 
+123.456000000 are not compatible.
+=======================================================
+Answer = 11
+CORRECT! 
+123.459999999 and 
+123.46000000 are compatible to 11 positions.
+CORRECT! 
+123.459999999 and 
+123.46000000 are compatible.
+=======================================================
+Answer = 1
+CORRECT! 
+1 and 
+1 are compatible to 1 positions.
+CORRECT! 
+1 and 
+1 are compatible.
+=======================================================
+Answer = 1
+CORRECT! 
+1 and 
+2 are compatible to 1 positions.
+CORRECT! 
+1 and 
+2 are compatible.
+=======================================================
+Answer = 0
+CORRECT! 
+1 and 
+3 are compatible to 0 positions.
+CORRECT! 
+1 and 
+3 are not compatible.
+=======================================================
+Answer = -1
+CORRECT! 
+0 and 
+1 are compatible to -1 positions.
+CORRECT! 
+0 and 
+1 are compatible.
+=======================================================
+Answer = 6
+CORRECT! 
+1.23400e-5 and 
+12.3399e-6 are compatible to 6 positions.
+CORRECT! 
+1.23400e-5 and 
+12.3399e-6 are compatible.
+=======================================================
+Answer = 5
+CORRECT! 
+1.23400e-5 and 
+1.23398e-5 are compatible to 5 positions.
+CORRECT! 
+1.23400e-5 and 
+1.23398e-5 are not compatible.
+=======================================================
+Answer = 5
+CORRECT! 
+1.23400e-5 and 
+1.23397e-5 are compatible to 5 positions.
+CORRECT! 
+1.23400e-5 and 
+1.23397e-5 are not compatible.
+=======================================================
+Answer = 2
+CORRECT! 
++12 and 
+13 are compatible to 2 positions.
+CORRECT! 
++12 and 
+13 are compatible.
+=======================================================
+Answer = 1
+CORRECT! 
++12 and 
+14 are compatible to 1 positions.
+CORRECT! 
++12 and 
+14 are not compatible.
+=======================================================
+Answer = 0
+CORRECT! 
++12 and 
+-12 are compatible to 0 positions.
+CORRECT! 
++12 and 
+-12 are not compatible.
+=======================================================
+Answer = 0
+CORRECT! 
+-12 and 
++15 are compatible to 0 positions.
+CORRECT! 
+-12 and 
++15 are not compatible.
+=======================================================
+Answer = 2
+CORRECT! 
++00012.5 and 
+013 are compatible to 2 positions.
+CORRECT! 
++00012.5 and 
+013 are compatible.
+=======================================================
+Answer = -1
+CORRECT! 
+0.0 and 
+0.12 are compatible to -1 positions.
+CORRECT! 
+0.0 and 
+0.12 are not compatible.
+=======================================================
+Answer = 49
+CORRECT! 
+0.9999995000000416666652777778025793648037918892129 and 
+0.99999950000004166666527777780257936480379188921289614586985 are compatible to 49 positions.
+CORRECT! 
+0.9999995000000416666652777778025793648037918892129 and 
+0.99999950000004166666527777780257936480379188921289614586985 are compatible.
+=======================================================
+Answer = 26
+CORRECT! 
+0.9999995000000416666652777708025793648037918892129 and 
+0.99999950000004166666527777780257936480379188921289614586985 are compatible to 26 positions.
+CORRECT! 
+0.9999995000000416666652777708025793648037918892129 and 
+0.99999950000004166666527777780257936480379188921289614586985 are not compatible.
+=======================================================
+Answer = -1
+CORRECT! 
+0.00 and 
+123 are compatible to -1 positions.
+CORRECT! 
+0.00 and 
+123 are not compatible.
+=======================================================
+Answer = -1
+CORRECT! 
+0 and 
+123 are compatible to -1 positions.
+CORRECT! 
+0 and 
+123 are not compatible.
+=======================================================
+./testBigFloat 
+CORRECT!!! all test are passed
+./noGarbage 
+Using default arguments: x = m/n = 2
+This illustrates the property that Core never print garbage digits
+Number to be tested is x = 2/1 = 2
+First we set the output precision to 60 digits
+   NOTE: 60 digits is equal to 199.31 bits!
+Approximate sqrt(x) to 2 bits.
+Output: 1.5
+Approximate sqrt(x) to 10 bits.
+Output: 1.41
+Approximate sqrt(x) to 100 bits.
+Output: 1.41421356237309504880168872421
+Approximate sqrt(x) to 200 bits.
+Output: 1.41421356237309504880168872420969807856967187537694807317668
+Approximate sqrt(x) to 400 bits.
+Output: 1.41421356237309504880168872420969807856967187537694807317668
+Approximate sqrt(x) to 800 bits.
+Output: 1.41421356237309504880168872420969807856967187537694807317668
+NOTE: You should see that no garbage digits is printed.
+      No extra digits is printed even when we approximate beyond
+      200 bits of accuracy.  If you want to see more, you need
+      to set to higher output precision.  THUS, output depends on
+      two parameters: known approximation and output precision.
+Suppose we specify the approximation precision in terms of digits.
+      But keeping the output precision to 60 digits, you will
+      see no extra digits printed beyond 60.
+Approximate sqrt(x) to 2 digits.
+Output: 1.4
+Approximate sqrt(x) to 10 digits.
+Output: 1.414213562
+Approximate sqrt(x) to 100 digits.
+Output: 1.41421356237309504880168872420969807856967187537694807317668
+Approximate sqrt(x) to 200 digits.
+Output: 1.41421356237309504880168872420969807856967187537694807317668
+Approximate sqrt(x) to 400 digits.
+Output: 1.41421356237309504880168872420969807856967187537694807317668
+Approximate sqrt(x) to 800 digits.
+Output: 1.41421356237309504880168872420969807856967187537694807317668
+Now repeat the experiment, but with output digits set to 300:
+Approximate sqrt(x) to 2 digits.
+Output: 1.4
+Approximate sqrt(x) to 10 digits.
+Output: 1.414213562
+Approximate sqrt(x) to 100 digits.
+Output: 1.414213562373095048801688724209698078569671875376948073176679737990732478462107038850387534327641573
+Approximate sqrt(x) to 200 digits.
+Output: 1.4142135623730950488016887242096980785696718753769480731766797379907324784621070388503875343276415727350138462309122970249248360558507372126441214970999358314132226659275055927557999505011527820605715
+Approximate sqrt(x) to 400 digits.
+Output: 1.41421356237309504880168872420969807856967187537694807317667973799073247846210703885038753432764157273501384623091229702492483605585073721264412149709993583141322266592750559275579995050115278206057147010955997160597027453459686201472851741864088919860955232923048430871432145083976260362799525140799
+Approximate sqrt(x) to 800 digits.
+Output: 1.41421356237309504880168872420969807856967187537694807317667973799073247846210703885038753432764157273501384623091229702492483605585073721264412149709993583141322266592750559275579995050115278206057147010955997160597027453459686201472851741864088919860955232923048430871432145083976260362799525140799
+
+Inside subdirectory  testsuite : =-=-=-=-=-=-=-=->>>
+./t_bigint 
+y=11
+y=12
+x=2210
+x=2222
+z=2234
+z=2322
+z=2322
+x=2222
+y=12
+z=185
+z=22
+z=0
+x=2222
+y=12
+True or false: 2222==12 ?0
+True or false: 2222== 100 ? 0
+True or false: 100 == 2222 ? 0
+./t_bigrat 
+y=11
+y=12
+x=2210
+x=2222
+z=x
+z=x
+z=2234
+z=2322
+z=2322
+x=2222
+y=12
+True or False? 2222 == 12 ? 0
+True or False? 2222 == 100 ? 0
+True or False? 100 == 2222 ? 0
+./t_bigfloat 
+f=1.23e+6
+test constructors
+default constructor: x=0
+constructor for char: x=1
+constructor for char with prec=10: xx=0+/-10e0
+constructor for uchar: x=2
+constructor for uchar with prec=10: xx=0+/-10e0
+constructor for short: x=3
+constructor for short with prec=10: xx=0+/-10e0
+constructor for ushort: x=4
+constructor for ushort with prec=10: xx=0+/-10e0
+constructor for int: x=5
+constructor for int with prec=10: xx=0+/-10e0
+constructor for uint: x=6
+constructor for uint with prec=10: xx=8
+constructor for long: x=7
+constructor for long with prec=10: xx=8
+constructor for ulong: x=8
+constructor for ulong with prec=10: xx=8
+constructor for float: x=0.10000000149011612
+constructor for float with prec=10: xx=0+/-10e0
+constructor for double: x=0.29999999999999999
+constructor for double with prec=10: xx=0+/-10e0
+constructor for BigInt: x=1234567
+constructor for BigInt with prec=10: xx=0+/-10e0
+constructor for BigRat: x=0.3333333333333333
+constructor for BigRat with prec=10: xx=0+/-10e0
+constructor for BigFloat: x=.01
+constructor for BigFloat with prec=10: xx=0+/-10e0
+test assignment functions
+set for char: x=1
+set with prec=10 for char: xx=1
+set for uchar: x=2
+set with prec=10 for uchar: xx=2
+set for short: x=3
+set with prec=10 for short: xx=3
+set for ushort: x=4
+set with prec=10 for ushort: xx=4
+set for int: x=5
+set with prec=10 for int: xx=5
+set for uint: x=6
+set with prec=10 for uint: xx=6
+set for long: x=7
+set with prec=10 for long: xx=7
+set for ulong: x=8
+set with prec=10 for ulong: xx=8
+set for float: x=0.100000001490116119
+set with prec=10 for float: xx=0.1
+set for double: x=0.299999999999999989
+set with prec=10 for double: xx=0.3
+set for BigInt: x=1234567
+set with prec=10 for BigInt: xx=1.23e+6
+set for BigRat: x=0.3333333333333333
+set with prec=10 for BigRat: xx=0.333
+set for BigFloat: x=.01
+set with prec=10 for BigFloat: xx=.00999
+set for const char*: x=1234.56788999995
+set with prec=10 for const char*: x=1234
+test auto version
+z=300
+z=200
+z=300
+test fixed version
+z=300
+z=200
+z=300
+test raw version
+z=300
+z=200
+z=300
+./t_expr 
+100 digits is equal to 332 bits!
+x: 4th root of 2 =1.18920711500272106671749997056
+xx: 4th root of 4=1.41421356237309504880168872421
+xxx: 4th root of 8=1.68179283050742908606225095247
+xxxx: 4th root of 16=2
+y: 7 + x - 5 xxx = -0.219757037534424363593754791772
+r=1.48492749726524714685139936093
+r.sign()=1
+r.uMSB()=1
+r.lMSB()=0
+digits2bits(prec)=99
+cbrt(17) = 2.57128159065823535545318720874
+root(17, 3) = 2.57128159065823535545318720874
+cbrt(17) = root(17,3) -- CORRECT!
+r.diam=3.15544e-30
+r=2.57128159065823535545318720874
+Cputime: 0ms (output 0ms)
+e.sign()=0
+e.r_approx()=0
+ee.sign()=1
+ee.r_approx()=2.64575131106459059050161575364
+eee.sign()=1
+eee.r_approx()=2.64575131106459059050161575364
+eee=2.64575
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+aa=sqrt(2) = Inside Newton Refine: Refining Part 
+Chees Bound satisfied 
+1.41421356237309504880168872421
+Inside Newton Refine: Refining Part 
+Chees Bound satisfied 
+aa*aa == 2:  CORRECT!
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Chees Bound satisfied 
+aa == bb:  CORRECT!
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Chees Bound satisfied 
+aa == cc:  CORRECT!
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+dd= -sqrt(2) = Inside Newton Refine: Refining Part 
+Chees Bound satisfied 
+-1.41421356237309504880168872421
+aa ++ dd == 0:  CORRECT!
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Golden Ratio, phi = Inside Newton Refine: Refining Part 
+Chees Bound satisfied 
+1.61803398874989484820458683436
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Golden Ratio, phi-hat = Inside Newton Refine: Refining Part 
+Chees Bound satisfied 
+-0.618033988749894848204586834366
+Inside Newton Refine: Refining Part 
+Chees Bound satisfied 
+phi * phi ==  phi + 1:  CORRECT!
+1/phi ==  phi - 1:  CORRECT!
+./t_poly
+P1=Polynomial<NT> ( deg = 4,
+>  coeff c0,c1,... = 1, 2, 3, 4, 5)
+
+P2=Polynomial<NT> ( deg = 8,
+>  coeff c0,c1,... = 9, 8, 7, 6, 5, 4, 3, 2, 1)
+
+P1+P2=Polynomial<NT> ( deg = 8,
+>  coeff c0,c1,... = 10, 10, 10, 10, 10, 4, 3, 2, 1)
+
+CORRECT!!! P1+P2=P2+P1
+P1-P2=Polynomial<NT> ( deg = 8,
+>  coeff c0,c1,... = -8, -6, -4, -2, 0, -4, -3, -2, -1)
+
+P2-P1=Polynomial<NT> ( deg = 8,
+>  coeff c0,c1,... = 8, 6, 4, 2, 0, 4, 3, 2, 1)
+
+CORRECT!!!  P1-P2=(P2-P1).negate()
+P1*P2=Polynomial<NT> ( deg = 12,
+>  coeff c0,c1,... = 9, 26, 50, 80, 115, 100, 85, 70, 55, 40, 26, 14, 5)
+
+P2*P1=Polynomial<NT> ( deg = 12,
+>  coeff c0,c1,... = 9, 26, 50, 80, 115, 100, 85, 70, 55, 40, 26, 14, 5)
+
+CORRECT!!! P1*P2=P2*P1
+x.rc=1
+y.rc=1
+z.rc=1
+./t_sturm
+Polynomial of degree 8 : Polynomial<NT> ( deg = 8,
+>  coeff c0,c1,... = 1225969745589853940699882447880155625/664613997892457936451903530140172288, -149192919905533219658325090294590900625/2658455991569831745807614120560689152, -176473560706138356181046066127379288725/2658455991569831745807614120560689152, -59323957331081368745121550919931250845/10633823966279326983230456482242756608, 213976196148401335217623674372070736157/10633823966279326983230456482242756608, 10107182444809889626671506586504631263/5316911983139663491615228241121378304, -12967429119484147645038507190192518603/10633823966279326983230456482242756608, -894074013945673684338239220768251181/10633823966279326983230456482242756608, 963347446801307512325971073199501/5316911983139663491615228241121378304)
+
+Number of Real Roots = 6
+the 1-th isolating interval is [-15.625, -7.8125]
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+   -- this root is -14.4671
+the 2-th isolating interval is [-7.8125, 0]
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+   -- this root is -3.44077
+the 3-th isolating interval is [0, 1.95312]
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+ ERROR! Root is not in the Output Interval 
+ Polynomial is Polynomial<NT> ( deg = 8,
+>  coeff c0,c1,... = 1225969745589853940699882447880155625/664613997892457936451903530140172288, -149192919905533219658325090294590900625/2658455991569831745807614120560689152, -176473560706138356181046066127379288725/2658455991569831745807614120560689152, -59323957331081368745121550919931250845/10633823966279326983230456482242756608, 213976196148401335217623674372070736157/10633823966279326983230456482242756608, 10107182444809889626671506586504631263/5316911983139663491615228241121378304, -12967429119484147645038507190192518603/10633823966279326983230456482242756608, -894074013945673684338239220768251181/10633823966279326983230456482242756608, 963347446801307512325971073199501/5316911983139663491615228241121378304)
+
+ Interval is [.0316795, .0316795]
+ Sign evaluation of a lower bound on poly [-1.92299e-16, -1.92271e-16]
+ Sign evaluation of a upper bound on poly [-1.92299e-16, -1.92271e-16]
+   -- this root is Inside Newton Refine: Refining Part 
+Chees Bound satisfied 
+ ERROR! Root is not in the Output Interval 
+ Polynomial is Polynomial<NT> ( deg = 8,
+>  coeff c0,c1,... = 1225969745589853940699882447880155625/664613997892457936451903530140172288, -149192919905533219658325090294590900625/2658455991569831745807614120560689152, -176473560706138356181046066127379288725/2658455991569831745807614120560689152, -59323957331081368745121550919931250845/10633823966279326983230456482242756608, 213976196148401335217623674372070736157/10633823966279326983230456482242756608, 10107182444809889626671506586504631263/5316911983139663491615228241121378304, -12967429119484147645038507190192518603/10633823966279326983230456482242756608, -894074013945673684338239220768251181/10633823966279326983230456482242756608, 963347446801307512325971073199501/5316911983139663491615228241121378304)
+
+ Interval is [.0316795, .0316795]
+ Sign evaluation of a lower bound on poly [-1.92299e-16, -1.92271e-16]
+ Sign evaluation of a upper bound on poly [-1.92299e-16, -1.92271e-16]
+0.5
+the 4-th isolating interval is [1.95312, 2.92969]
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+ ERROR! Root is not in the Output Interval 
+ Polynomial is Polynomial<NT> ( deg = 8,
+>  coeff c0,c1,... = 1225969745589853940699882447880155625/664613997892457936451903530140172288, -149192919905533219658325090294590900625/2658455991569831745807614120560689152, -176473560706138356181046066127379288725/2658455991569831745807614120560689152, -59323957331081368745121550919931250845/10633823966279326983230456482242756608, 213976196148401335217623674372070736157/10633823966279326983230456482242756608, 10107182444809889626671506586504631263/5316911983139663491615228241121378304, -12967429119484147645038507190192518603/10633823966279326983230456482242756608, -894074013945673684338239220768251181/10633823966279326983230456482242756608, 963347446801307512325971073199501/5316911983139663491615228241121378304)
+
+ Interval is [2.56247, 2.56247]
+ Sign evaluation of a lower bound on poly [1.26087e-13, 1.26087e-13]
+ Sign evaluation of a upper bound on poly [1.26087e-13, 1.26087e-13]
+   -- this root is Inside Newton Refine: Refining Part 
+Chees Bound satisfied 
+ ERROR! Root is not in the Output Interval 
+ Polynomial is Polynomial<NT> ( deg = 8,
+>  coeff c0,c1,... = 1225969745589853940699882447880155625/664613997892457936451903530140172288, -149192919905533219658325090294590900625/2658455991569831745807614120560689152, -176473560706138356181046066127379288725/2658455991569831745807614120560689152, -59323957331081368745121550919931250845/10633823966279326983230456482242756608, 213976196148401335217623674372070736157/10633823966279326983230456482242756608, 10107182444809889626671506586504631263/5316911983139663491615228241121378304, -12967429119484147645038507190192518603/10633823966279326983230456482242756608, -894074013945673684338239220768251181/10633823966279326983230456482242756608, 963347446801307512325971073199501/5316911983139663491615228241121378304)
+
+ Interval is [.0316795, .0316795]
+ Sign evaluation of a lower bound on poly [-1.92299e-16, -1.92271e-16]
+ Sign evaluation of a upper bound on poly [-1.92299e-16, -1.92271e-16]
+0.5
+the 5-th isolating interval is [2.92969, 3.90625]
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+ ERROR! Root is not in the Output Interval 
+ Polynomial is Polynomial<NT> ( deg = 8,
+>  coeff c0,c1,... = 1225969745589853940699882447880155625/664613997892457936451903530140172288, -149192919905533219658325090294590900625/2658455991569831745807614120560689152, -176473560706138356181046066127379288725/2658455991569831745807614120560689152, -59323957331081368745121550919931250845/10633823966279326983230456482242756608, 213976196148401335217623674372070736157/10633823966279326983230456482242756608, 10107182444809889626671506586504631263/5316911983139663491615228241121378304, -12967429119484147645038507190192518603/10633823966279326983230456482242756608, -894074013945673684338239220768251181/10633823966279326983230456482242756608, 963347446801307512325971073199501/5316911983139663491615228241121378304)
+
+ Interval is [3.49, 3.49]
+ Sign evaluation of a lower bound on poly [-2.3756e-13, -2.3756e-13]
+ Sign evaluation of a upper bound on poly [-2.3756e-13, -2.3756e-13]
+   -- this root is Inside Newton Refine: Refining Part 
+Chees Bound satisfied 
+ ERROR! Root is not in the Output Interval 
+ Polynomial is Polynomial<NT> ( deg = 8,
+>  coeff c0,c1,... = 1225969745589853940699882447880155625/664613997892457936451903530140172288, -149192919905533219658325090294590900625/2658455991569831745807614120560689152, -176473560706138356181046066127379288725/2658455991569831745807614120560689152, -59323957331081368745121550919931250845/10633823966279326983230456482242756608, 213976196148401335217623674372070736157/10633823966279326983230456482242756608, 10107182444809889626671506586504631263/5316911983139663491615228241121378304, -12967429119484147645038507190192518603/10633823966279326983230456482242756608, -894074013945673684338239220768251181/10633823966279326983230456482242756608, 963347446801307512325971073199501/5316911983139663491615228241121378304)
+
+ Interval is [.0316795, .0316795]
+ Sign evaluation of a lower bound on poly [-1.92299e-16, -1.92271e-16]
+ Sign evaluation of a upper bound on poly [-1.92299e-16, -1.92271e-16]
+0.5
+the 6-th isolating interval is [250, 500]
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+   -- this root is 478.077
+./t_rootOf
+Polynomial is    x^{50} - 50 x^2 + 20 x - 2
+It has 4 real roots: 
+       -1.09254,   0.2,    0.2,    1.07565 
+<BigRat> Sturm Sequence produces these intervals: 
+CORRECT! Sturm<bigRat> found 4 real roots
+  -- Interval [-100, 0]
+          has 1th Root = -1.09254
+  -- Interval [0.2, 0.2]
+          has 2th Root = 0.2
+  -- Interval [0.2, 0.2]
+          has 3th Root = 0.2
+  -- Interval [0.78125, 1.5625]
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+          has 4th Root = 1.07565
+<BigInt> Sturm Sequence produces these intervals: 
+CORRECT! Sturm<bigInt> found 4 real roots
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+CORRECT! Sturm<BigInt> and Sturm<BigRat> agree on 1-th root
+CORRECT! Sturm<BigInt> and Sturm<BigRat> agree on 2-th root
+CORRECT! Sturm<BigInt> and Sturm<BigRat> agree on 3-th root
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+Inside Newton Refine: Refining Part 
+Smales Bound satisfied 
+CORRECT! Sturm<BigInt> and Sturm<BigRat> agree on 4-th root
+1st Root = -1.09254
+./kahan
+Testing Kahan's example
+CORRECT!!! 0 wrong answers and 1010 right answers!
+
+Inside subdirectory  tutorial : =-=-=-=-=-=-=-=->>>
+./delaunay 7
+debug: argc = 2 
+lower face indices: 0, 2, 1
+lower face indices: 0, 3, 1
+lower face indices: 0, 3, 2
+lower face indices: 0, 4, 1
+lower face indices: 0, 4, 2
+lower face indices: 0, 4, 3
+lower face indices: 0, 5, 1
+lower face indices: 0, 5, 2
+lower face indices: 0, 5, 3
+lower face indices: 0, 5, 4
+lower face indices: 0, 6, 1
+lower face indices: 0, 6, 2
+lower face indices: 0, 6, 3
+lower face indices: 0, 6, 4
+lower face indices: 0, 6, 5
+lower face indices: 1, 3, 2
+lower face indices: 1, 4, 2
+lower face indices: 1, 4, 3
+lower face indices: 1, 5, 2
+lower face indices: 1, 5, 3
+lower face indices: 1, 5, 4
+lower face indices: 1, 6, 2
+lower face indices: 1, 6, 3
+lower face indices: 1, 6, 4
+lower face indices: 1, 6, 5
+lower face indices: 2, 4, 3
+lower face indices: 2, 5, 3
+lower face indices: 2, 5, 4
+lower face indices: 2, 6, 3
+lower face indices: 2, 6, 4
+lower face indices: 2, 6, 5
+lower face indices: 3, 5, 4
+lower face indices: 3, 6, 4
+lower face indices: 3, 6, 5
+lower face indices: 4, 6, 5
+A total of 35 lower faces found.
+CORRECT!  The number of lower faces is equal to {7 choose 3} = 35
+./io
+  Let X=1234.567890
+  Default Printout of X : 
+    -1234.57
+  Printout of X after setprecision(10) : 
+    -1234.56789
+     -- so `output width' (=10 here) counts the decimal point
+  Printout of X after setprecision(6): 
+    -1234.57
+     -- so the default width is 6
+  Printout of X after setScientificFormat(): 
+    -1.23457e+3
+     -- the width remains set at 6 
+     -- but decimal point in Scientific width is not counted! 
+     -- Note the rounding of the last digit
+  Printout of X after setprecision(10) : 
+    -1.23456789e+3
+  Printout of X after setprecision(11) : 
+    -1.23456789e+3
+     -- an artificial zero digit is printed
+  Printout of X after setprecision(12) : 
+    -1.23456789e+3
+     -- another artificial zero digit!
+  Printout of X after setprecision(100) : 
+    -1.23456789e+3
+     -- Should print correctly
+  Printout of X after setprecision(200) : 
+    -1.23456789e+3
+     -- Should see print out errors!
+  FIX: set defInputDigits to INFTY before reading X 
+  printout X after setprecision(20) : 
+    -1.23456789e+3
+  Try Again: printout X after setprecision(200) : 
+    -1.23456789e+3
+     -- Should see no printout errors!
+  Printout of X after setPositionalFormat(): 
+    -1234.56789
+  Printout of X after setprecision(11): 
+    -1234.56789
+     -- only one extra zero printed, as expected
+  Printout of X after setprecision(5): 
+    -1234.6
+     -- rounding to a 4-digit integer
+  Printout of X after setprecision(4): 
+    -1235
+     -- we are forced to go to scientific format
+
+ To see what happens if X were not exact, we next set Y = 1/3.
+    Here Y is an expression
+    We evaluate Y relative precision 53 (15.9 digits) 
+    by calling setDefaultPrecision(53,CORE_INFTY). 
+  Output In Positional Format
+    Cout precision 12:      0.333333333333
+    Cout precision 15:      0.333333333333333
+    Cout precision 16:      0.3333333333333333
+        -- no guarantee that you will see more digits!
+    Cout precision 17:      0.3333333333333333
+        -- you may see more because CORE has exceeded the requirements!
+    Cout precision 18:      0.3333333333333333
+    Cout precision 19:      0.3333333333333333
+    Cout precision 20:      0.3333333333333333
+    Cout precision 21:      0.3333333333333333
+    Cout precision 22:      0.3333333333333333
+    Cout precision 23:      0.3333333333333333
+    Cout precision 24:      0.3333333333333333
+    Cout precision 25:      0.3333333333333333
+    Cout precision 26:      0.3333333333333333
+    Cout precision 27:      0.3333333333333333
+    Cout precision 28:      0.3333333333333333
+    Cout precision 29:      0.3333333333333333
+    Cout precision 30:      0.3333333333333333
+    Cout precision 31:      0.3333333333333333
+THE NUMBER OF OUTPUT DIGITS SHOULD STOP SOMEWHAT BEFORE 31 
+SINCE CORE EXCEEDS THE REQUESTED PRECISION BY A FACTOR of 2
+To ensure that you really see 31 DIGITS, we must compute to 
+102 relative bits of precision: by calling Y.approx(103, CORE_INFTY) 
+    Cout precision 31:      0.3333333333333333333333333333333
+    Cout precision 36:      0.3333333333333333333333333333333
+    Cout precision 41:      0.3333333333333333333333333333333
+    Cout precision 46:      0.3333333333333333333333333333333
+    Cout precision 51:      0.3333333333333333333333333333333
+Now, we do Y.approx(123, CORE_INFTY) 
+    Cout precision 51:      0.3333333333333333333333333333333333333
+

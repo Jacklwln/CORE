@@ -1,0 +1,44 @@
+# Rod Robot in 3D 
+# simple input
+
+interactive = 0		# 0=interactive, >0 is non-interactive
+
+startX = 480 # start configuration
+startY = 150
+startZ = 150
+startRoll = 0.1
+startPitch = 1
+startYaw = 0.1
+goalX = 50	 # goal configuration
+goalY = 150
+goalZ = 400
+goalRoll = -0.1
+goalPitch = 0.1
+goalYaw = 1
+
+
+epsilon = 16		# resolution parameter
+
+len = 120		# rod length
+
+inputDir = inputs	# where to find input files
+fileName = simple_block2.txt	# input environment file
+
+boxWidth = 512		# initial configuration box size
+boxHeight = 512
+
+windowPosX = 320	# initial Window position
+windowPosY = 20	
+
+Qtype = 2		# type of priority queue
+			#  (0=random, 1=BFS, 2=Greedy Best First, 3=Dist+size, 4=Vor?) 
+seed = 11		# seed for random
+step = 0		# number of steps to run
+			#	(step=0 means run to completion)
+xtrans = 0		# x-translation of input file
+ytrans = 0		# y-translation of input file
+scale = 1		# scaling of input file
+
+animationSpeed = 90
+
+verbose = 0		# if true, display statistics
